@@ -1,0 +1,78 @@
+{
+    "name": "Alfonsus Antero Arnayusrendito",
+    "profilePictureUrl": "images/pictures/avatar.jpeg",
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a href='https://github.com/arnarendito34'>Alfonsus Antero</a></strong>",
+            "role": "Data Analyst & Web Development"
+        },
+        "in": {
+            "credits": "Dirancang oleh <strong><a href='https://github.com/arnarendito34'>Alfonsus Antero</a></strong>",
+            "role": "Data Analyst & Web Development"
+        }
+    },
+    "contactOptions": [
+        {
+            "id": "address",
+            "faIcon": "fa-regular fa-map",
+            "href": null,
+            "locales": {
+                "en": {
+                    "value": "Kav. Kalijaten, RT 21 RW 03, Taman, Sidoarjo, Jawa Timur",
+                    "valueShort": "Sidoarjo, East Java"
+                },
+                "in": {
+                    "valueShort": "Sidoarjo, Jawa Timur"
+                }
+            }
+        },
+        {
+            "id": "email",
+            "value": "renditobloggerspot@gmail.com",
+            "valueShort": "renditobloggerspot@gmail.com",
+            "faIcon": "fa-regular fa-envelope",
+            "href": "mailto:roy.sheppard@genius.com",
+            "copy": true
+        },
+        {
+            "id": "github",
+            "value": "arnarendito34",
+            "valueShort": "arnarendito34",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/arnarendito34",
+            "copy": false
+        },
+        {
+            "id": "instagram",
+            "value": "@renditoantero",
+            "valueShort": "@renditoantero",
+            "faIcon": "fa-brands fa-instagram",
+            "href": "https://www.instagram.com/renditoantero/",
+            "copy": false
+        },
+        {
+            "id": "linkedin",
+            "value": "Alfonsus Antero Arnayusrendito",
+            "valueShort": "Alfonsus Antero Arnayusrendito",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://www.linkedin.com/in/alfonsusa-antero/",
+            "copy": false
+        },
+        {
+            "id": "phone",
+            "value": "+62 813-2949-1866",
+            "valueShort": "+62 813-2949-1866",
+            "faIcon": "fa-brands fa-whatsapp",
+            "href": "tel:1234567890",
+            "copy": true
+        },
+        {
+            "id": "download_resume",
+            "value": "",
+            "valueShort": "",
+            "faIcon": "fa-solid fa-file-pdf",
+            "href": "/pdf/CV.pdf",
+            "copy": false
+        }
+    ]
+}

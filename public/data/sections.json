@@ -1,0 +1,172 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card",
+            "type": "centered",
+            "locales": {
+                "en": {
+                    "title": "Welcome to *Portfolio*",
+                    "title_short": "Welcome!",
+                    "description": null,
+                    "nav_label": "About"
+                },
+                "in": {
+                    "title": "Selamat Datang",
+                    "title_short": "Selamat",
+                    "description": null,
+                    "nav_label": "Tentang"
+                }
+            }
+        },
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/sections/education.json",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Education* Background",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Education"
+                },
+                "in": {
+                    "title": "Latar Belakang *Pendidikan*",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Pendidikan"
+                }
+            }
+        },
+        {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/skills.json",
+            "faIcon": "fa-solid fa-tools",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Skill* Set",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Skills"
+                },
+                "in": {
+                    "title": "*Keahlian*",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Keahlian"
+                }
+            }
+        },
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Professional* Experience",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Experience"
+                },
+                "in": {
+                    "title": "Pengalaman *Profesional*",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Pengalaman"
+                }
+            }
+        },
+        {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "My *Portfolio*",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Portfolio"
+                },
+                "in": {
+                    "title": "*Portofolio* Saya",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Portofolio"
+                }
+            }
+        },
+        {
+            "id": "achievements",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/achievements.json",
+            "faIcon": "fa-solid fa-award",
+            "type": "row",
+            "locales": {
+                "en": {
+                    "title": "*Achievements*",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Achievements"
+                },
+                "in": {
+                    "title": "*Penghargaan*",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Penghargaan"
+                }
+            }
+        },
+        {
+            "id": "hobbies",
+            "categoryId": "more",
+            "jsonPath": "/sections/hobbies.json",
+            "faIcon": "fa-solid fa-heart",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Hobbies* & Interests",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Hobbies"
+                },
+                "in": {
+                    "title": "Minat & *Hobi*",
+                    "title_short": null,
+                    "description": null,
+                    "nav_label": "Hobi"
+                }
+            }
+        },
+        {
+            "id": "contact",
+            "categoryId": "more",
+            "jsonPath": "/sections/contact.json",
+            "faIcon": "fa-solid fa-pen-to-square",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Contact* Me",
+                    "title_short": null,
+                    "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
+                    "nav_label": "Contact"
+                },
+                "in": {
+                    "title": "*Kontak* Saya",
+                    "title_short": null,
+                    "description": "Jangan ragu untuk menghubungi saya kapan pun Anda merasa perlu!",
+                    "nav_label": "Kontak"
+                }
+            }
+        }
+    ]
+}

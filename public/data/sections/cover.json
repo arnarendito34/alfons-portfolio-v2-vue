@@ -1,0 +1,51 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleProfile",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "contact_list_ids": ["address", "email", "phone"],
+                "contact_circles_ids": ["instagram", "linkedin", "github", "download_resume"]
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "locales": {
+                        "en": {
+                            "description": "<strong>Bachelor’s degree graduate in Information Systems </strong> from Telkom University (Surabaya Campus) with 3 months of internship experience as a Data Analyst. Highly motivated to learn new things and aspiring to build a career in the Information Technology (IT) field. The core areas of interest include Data Analysis, System Analysis, and Web Development."
+                        },
+                        "in": {
+                            "description": "<strong>Lulusan S1 Sistem Informasi</strong> Telkom University (Surabaya Campus) dengan pengalaman magang selama 3 bulan sebagai Data Analyst. Memiliki minat tinggi dalam mempelajari hal baru serta beraspirasi untuk berkarier di bidang Teknologi Informasi (IT). Bidang keahlian utama meliputi Data Analyst, System Analyst, dan Web Development."
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "locales": {
+                        "en": {
+                            "description": "I believe that good design should enhance people's lives, helping them navigate technology with ease and confidence. Let’s work together to bring ideas to life and build something truly amazing!"
+                        },
+                        "in": {
+                            "description": "Saya percaya bahwa pekerjaan yang baik seharusnya meningkatkan kehidupan orang, membantu mereka menggunakan teknologi dengan mudah dan percaya diri. Mari bekerja sama untuk mewujudkan ide-ide dan menciptakan sesuatu yang benar-benar luar biasa!"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "locales": {
+                        "en": {
+                            "description": "<strong> Always be humble, gentle, and patient. Show your love by helping one another.</strong> -Ephesians 4:2  "
+                        },
+                        "in": {
+                            "description": "<strong> Hendaklah kamu selalu rendah hati, lemah lembut, dan sabar. Tunjukkanlah kasihmu dalam hal saling membantu.</strong> -Efesus 4:2 "
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

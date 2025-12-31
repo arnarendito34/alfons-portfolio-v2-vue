@@ -1,0 +1,93 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2015, "month": 6},
+                    "dateEnd": {"year": 2018, "month": 5},
+                    "img": "images/places/pius.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "SMP Pius Bakti Utama Gombong",
+                            "description": "Final Score : 73 | Raport Score : 79 <br/><strong>Extracurricular Activities</strong> : Basketball & Scout.",
+                            "province": "Kebumen",
+                            "country": "Central Java",
+                            "institution": "Junior High School",
+                            "tags": []
+                        },
+                        "in": {
+                            "title": "SMP Pius Bakti Utama Gombong",
+                            "description": "Nilai Ujian : 73 | Nilai Raport : 79 <br/><strong>Extrakulikuler</strong> : Bola Basket & Pramuka.",
+                            "province": "Kebumen",
+                            "country": "Jawa Tengah",
+                            "institution": "Sekolah Menengah Pertama",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2018, "month": 6},
+                    "dateEnd": {"year": 2021, "month": 5},
+                    "img": "images/places/petra.jpeg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "SMKS Kristen Petra Surabaya",
+                            "description": "<strong>Computer & Networking Engineering</strong> | Final Score : 90.19 <br/><strong>Relevant Subjects</strong> : Programming Algorithm, Graphic Design, Digital Simulation, Network System Administration, Network Infrastructure Administration, and Network Service Technology. <br/><strong>Extracurricular Activities</strong> : Basketball & Photography.",
+                            "province": "Surabaya",
+                            "country": "East Java",
+                            "institution": "Vocational High School",
+                            "tags": []
+                        },
+                        "in": {
+                            "title": "SMKS Kristen Petra Surabaya",
+                            "description": "<strong>Teknik Komputer & Jaringan (TKJ)</strong> | Nilai Akhir : 90.19 <br/><strong>Mata Pelajaran Relevan</strong> : Algoritma Pemrograman, Desain Grafis, Simulasi Digital, Administrasi Sistem Jaringan, Administrasi Infrastruktur Jaringan, dan Teknologi Layanan Jaringan. <br/><strong>Ekstrakulikuler</strong> : Bola Basket & Fotografi.",
+                            "province": "Surabaya",
+                            "country": "Jawa Timur",
+                            "institution": "Sekolah Menengah Keahlian",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2021, "month": 9},
+                    "dateEnd": {"year": 2025, "month": 7},
+                    "img": "images/places/telu.webp",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Telkom University (Surabaya Campus)",
+                            "description": "<strong>Bachelor of Information System</strong> | GPA : 3.57 <br/> <strong>Thesis Title</strong> : Implementation of Latent Dirichlet Allocation and Naïve Bayes for Research Supervisor Recommendation at Telkom University Surabaya Based on Google Scholar-Indexed Publications.<br/><strong>Relevant Subjects</strong> : Information System Analysis and Design, Data Mining, Data Warehouse & Business Intelligence, Machine Learning, Natural Language Processing, UI/UX Development, and Web Programming. ",
+                            "province": "Surabaya",
+                            "country": "East Java",
+                            "institution": "Bachelor",
+                            "tags": []
+                        },
+                        "in": {
+                            "title": "Universitas Telkom (Kampus Kota Surabaya)",
+                            "description": "<strong>S1-Sistem Informasi</strong> | IPK : 3.57<br/> <strong>Judul Tugas Akhir</strong> : Penerapan Latent Dirichlet Allocation & Naïve Bayes untuk Rekomendasi Dosen Peneliti Telkom University Surabaya Berdasarkan Publikasi Terindeks Google Scholar. <br/><strong>Mata Kuliah Relevan</strong> : Analisis dan Perancangan Sistem Informasi, Data Mining, Data Warehouse & Business Intelligence, Machine Learning, Natural Language Processing, Pengembangan UI/UX, dan Pemrograman Web. ",
+                            "province": "Surabaya",
+                            "country": "Jawa Timur",
+                            "institution": "Strata 1",
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

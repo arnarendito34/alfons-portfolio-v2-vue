@@ -1,0 +1,370 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {"title": "Awards"},
+                "in": {"title": "Penghargaan"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2023, "month": 0},
+                    "fallbackFaIcon": "fa-solid fa-building",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Campaigner with KarsaCita",
+                            "description": "Experienced as a Campaigner in the public awareness campaign titled “Understanding Psychological Abuse: A Crime That Damages Mental Health”, organized by Karsa Cita (CACA).",
+                            "institution": "Karsa Cita (CACA)"
+                        },
+                        "in": {
+                            "title": "Sukarelawan bersama KarsaCita",
+                            "description": "Berpengalaman sebagai juru kampanye dalam kampanye kesadaran publik bertema “Memahami Pelecehan Psikologis: Kejahatan yang Merusak Kesehatan Mental”, yang diselenggarakan oleh Karsa Cita (CACA).",
+                            "institution": "Karsa Cita (CACA)"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1xkh2Vt-6n47ekaffK97mr5MAU0dIHcJy/view?usp=sharing", "stringKey": "view_more_info"}
+                    ]
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2023, "month": 5},
+                    "fallbackFaIcon": "fa-solid fa-university",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Participant in Playbox Season 4 Competition 2023 Institut Teknologi Telkom Surabaya",
+                            "description": "Participate as a participant in the start-up competition organized by CODER Student Club Telkom Institute of Technology Surabaya.",
+                            "institution": "Telkom University"
+                        },
+                        "in": {
+                            "title": "Peserta Playbox Season 4 CODER Institut Teknologi Telkom Surabaya 2023",
+                            "description": "Berpartisipasi sebagai peserta kompetisi start-up yang diselenggarakan oleh UKM CODER Institut Teknologi Telkom Surabaya.",
+                            "institution": "Universitas Telkom"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1XALplSA1M-GlQz88aJG88rPCdbJHBHdU/view?usp=sharing", "stringKey": "view_more_info"}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2023, "month": 8},
+                    "fallbackFaIcon": "fa-solid fa-university",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Participant in Company Profile Re-design Project CODER Telkom University Surabaya",
+                            "description": "Participated as a UI Designer in a company profile re-design project for CODER Telkom University Surabaya Student Club.",
+                            "institution": "Telkom University"
+                        },
+                        "in": {
+                            "title": "Peserta Proyek <i>Re-design Company Profile</i> CODER Telkom University Surabaya",
+                            "description": "Berpartisipasi sebagai UI Designer dalam proyek <i>re-design company profile</i> untuk UKM CODER Telkom University Surabaya.",
+                            "institution": "Universitas Telkom"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/drive/u/0/folders/1k5yNr7CLzDlsGH_AHgm0G58Vu_Zo5KKz", "stringKey": "view_more_info"}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2023, "month": 9},
+                    "fallbackFaIcon": "fa-solid fa-university",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Participant in National Business Plan Competition 2023 STIM YKPN Yogyakarta. ",
+                            "description": "Participating in the National Business Plan Competition held by Entrepreneurship Student Club STIM YKPN Yogyakarta.",
+                            "institution": "STIM YKPN Yogyakarta"
+                        },
+                        "in": {
+                            "title": "Peserta Kompetisi Bisnis Plan STIM YKPN Yogyakarta 2023",
+                            "description": "Mengikuti Lomba Bisnis Plan Tingkat Nasional yang diselenggarakan oleh UKM Kewirausahaan STIM YKPN Yogyakarta.",
+                            "institution": "STIM YKPN Yogyakarta"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1sHiPkwNmMj3PFVnXuOgNR3kxlDGrac5-/view?usp=sharing", "stringKey": "view_more_info"}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "dateStart": {"year": 2023, "month": 10},
+                    "fallbackFaIcon": "fa-solid fa-university",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Dies Natalis Sistem Informasi Telkom University Surabaya 2023",
+                            "description": "Participated as a committee member for the documentation and publication division in the Anagata Amerta (Dies Natalis Sistem Informasi Telkom University Surabaya 2023).",
+                            "institution": "Telkom University"
+                        },
+                        "in": {
+                            "title": "Dies Natalis Sistem Informasi Telkom University Surabaya 2023",
+                            "description": "Berpartisipasi sebagai panitia divisi dokumentasi dan publikasi (PDD) dalam acara Anagata Amerta (Dies Natalis Sistem Informasi Telkom University Surabaya 2023).",
+                            "institution": "Universitas Telkom"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1MObV5AV3K4XQaGk1P3yex8TcVkl6aEkZ/view?usp=sharing", "stringKey": "view_more_info"}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "dateStart": {"year": 2024, "month": 7},
+                    "fallbackFaIcon": "fa-solid fa-building",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Internship Certification",
+                            "description": "Completed a 3-month internship as a Data Analyst Intern at BPSDMP Kominfo Surabaya",
+                            "institution": "BPSDMP Kominfo Surabaya"
+                        },
+                        "in": {
+                            "title": "Sertifikat Magang",
+                            "description": "Melaksanakan program magang selama 3 bulan sebagai Data Analyst Intern di BPSDMP Kominfo Surabaya.",
+                            "institution": "BPSDMP Kominfo Surabaya"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1wkzeDajWGP16dgoH6UjyVtas8kQlBq2O/view?usp=sharing", "stringKey": "view_more_info"}
+                    ]
+                },
+                {
+                    "id": 7,
+                    "dateStart": {"year": 2025, "month": 11},
+                    "fallbackFaIcon": "fa-solid fa-university",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "IEEE  2025 2nd Beyond Technology Summit on Informatics International Conference",
+                            "description": "Presented a Final Project research titled : <i>Researcher Recommendation System Using Hybrid LDA-Based Topic Extraction and Naive Bayes Model.</i>",
+                            "institution": "Muhammadiyah Jember University"
+                        },
+                        "in": {
+                            "title": "IEEE  2025 2nd Beyond Technology Summit on Informatics International Conference",
+                            "description": "Mempresentasikan Penelitian Tugas Akhir dengan Judul : <i>Researcher Recommendation System Using Hybrid LDA-Based Topic Extraction and Naive Bayes Model.</i> ",
+                            "institution": "Universitas Muhammadiyah Jember"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1h8k87ysGMcHpAmn4WLv0YjbMwC_ECN1W/view?usp=sharing", "stringKey": "view_more_info"}
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {"title": "Certifications"},
+                "in": {"title": "Sertifikasi"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2022, "month": 1},
+                    "fallbackFaIcon": "fa-solid fa-building",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Workshop WAOW Season 2 - Front-End Development & Back-End Development",
+                            "description": "Participated in the Full-Stack Development workshop activities held by CODER Student Club Institut Teknologi Telkom Surabaya, starting from learning Figma to implementing the web with the React Framework.",
+                            "institution": "Telkom University"
+                        },
+                        "in": {
+                            "title": "Workshop WAOW Season 2 - Front-End Development & Back-End Development",
+                            "description": "Berpartisipasi dalam kegiatan workshop Full-Stack Development yang di selenggarakan UKM CODER Institut Teknologi Telkom Surabaya yang Mulai dari belajar Figma hingga penerapan web dengan React Framework.",
+                            "institution": "Universitas Telkom"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1qeJ-2Rr6BE-i2UqdWaFfq05LcVkfJa_3/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2022, "month": 8},
+                    "fallbackFaIcon": "fa-brands fa-microsoft",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Basic Skill Microsoft Excel in 90 Minutes",
+                            "description": "Participate in a 90-minute Microsoft Excel workshop involving data processing.",
+                            "institution": "KarirLab"
+                        },
+                        "in": {
+                            "title": "Basic Skill Microsoft Excel dalam 90 Menit",
+                            "description": "Berpartisipasi dalam kegiatan workshop Microsoft Excel yang melakukan pengolahan data selama 90 menit.",
+                            "institution": "KarirLab"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1r1JAUhVylyfqM48lxKZNBcYkZzkmV7hp/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2023, "month": 0},
+                    "fallbackFaIcon": "fa-solid fa-laptop",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "HR050 - Business Processes in Human Capital Management",
+                            "description": "Participated in the SAP certification training program on <i>HR050 - Business Processes in Human Capital Management</i> organized by SAP.",
+                            "institution": "SAP University Partnership Program"
+                        },
+                        "in": {
+                            "title": "HR050 - Business Processes in Human Capital Management",
+                            "description": "Berpartisipasi dalam program pelatihan sertifikasi SAP mengenai <i>HR050 - Business Processes in Human Capital Management</i> yang diselenggarakan oleh SAP.",
+                            "institution": "SAP University Partnership Program"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1Ov88VDalgdXWe6dB0w_VaFhOCN7uSKQU/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2024, "month": 1},
+                    "fallbackFaIcon": "fa-solid fa-laptop",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "AC010 - Business Processes in Financial Accounting",
+                            "description": "Participated in the SAP certification training program on <i>AC010 - Business Processes in Financial Accounting</i> organized by SAP.",
+                            "institution": "SAP University Partnership Program"
+                        },
+                        "in": {
+                            "title": "AC010 - Business Processes in Financial Accounting",
+                            "description": "Berpartisipasi dalam program pelatihan sertifikasi SAP mengenai <i>AC010 - Business Processes in Financial Accounting</i> yang diselenggarakan oleh SAP.",
+                            "institution": "SAP University Partnership Program"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1G5eS0MBOx7Ox-96UkX38C30SkpL2a8tt/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "dateStart": {"year": 2024, "month": 5},
+                    "fallbackFaIcon": "fa-solid fa-school",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "DevOpS Course Certification",
+                            "description": "Participate in Development & Operation (DevOps) workshop activities organized by Intellipaat Academy",
+                            "institution": "Intellipaat Academy"
+                        },
+                        "in": {
+                            "title": "DevOpS Course Certification",
+                            "description": "Berpartisipasi dalam kegiatan workshop Development & Operation (DevOps) yang diselenggarakan oleh Intellipaat Academy",
+                            "institution": "Intellipaat Academy"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/12wxEMiaToCfA85HTjb0YpZLt7nJnK6fc/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "dateStart": {"year": 2024, "month": 6},
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Belajar Dasar AI",
+                            "description": "This course is intended for beginners seeking to launch a career in the world of AI. Upon completion, students are expected to be able to analyze various fundamental AI concepts and their applications effectively.",
+                            "institution": "Dicoding Academy"
+                        },
+                        "in": {
+                            "title": "Belajar Dasar AI",
+                            "description": "Kelas ini ditujukan untuk pemula yang ingin memulai karier di dunia AI. Setelah mengikuti kelas, siswa diharapkan mampu menelaah berbagai konsep dasar dalam AI beserta penerapannya dengan baik.",
+                            "institution": "Dicoding Academy"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1Eu7Mqll77zLb7Iumnvli8-G3pDt9ILDA/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                },
+                {
+                    "id": 7,
+                    "dateStart": {"year": 2024, "month": 6},
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Belajar Dasar Visualisasi Data",
+                            "description": "This course is designed for beginners looking to launch their careers in data processing, aligned with industry competency standards. By the end of the course, students will be able to create effective data visualizations using Google Sheets.",
+                            "institution": "Dicoding Academy"
+                        },
+                        "in": {
+                            "title": "Belajar Dasar Visualisasi Data",
+                            "description": "Kelas ditujukan bagi pemula yang ingin memulai karirnya di bidang pengolahan data dengan mengacu pada standar kompetensi industri. Di akhir kelas, siswa dapat membuat sebuah visualisasi data yang efektif menggunakan Google Sheets.",
+                            "institution": "Dicoding Academy"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1XyDoywStfcSDDI51UD94hMdoluahnGwL/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                },
+                {
+                    "id": 8,
+                    "dateStart": {"year": 2024, "month": 7},
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Belajar Dasar Structured Query Language (SQL)",
+                            "description": "This course is designed for individuals aspiring to become Data Analysts or Data Scientists by mastering Structured Query Language (SQL). By the end of the course, students will be able to master fundamental queries commonly used in data management.",
+                            "institution": "Dicoding Academy"
+                        },
+                        "in": {
+                            "title": "Belajar Dasar Structured Query Language (SQL)",
+                            "description": "Kelas ini ditujukan untuk individu yang ingin melangkah menjadi seorang data analyst atau data scientist dengan mempelajari bahasa Structured Query Language (SQL). Di akhir kelas, siswa dapat menguasai berbagai query dasar yang sering digunakan dalam mengelola data menggunakan bahasa structured query language (SQL).",
+                            "institution": "Dicoding Academy"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1Z9OZxUHQSBbHt9V6Yu1gLWLienHIB1Bf/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                },
+                {
+                    "id": 9,
+                    "dateStart": {"year": 2024, "month": 8},
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Belajar Dasar Manajemen Proyek",
+                            "description": "This course provides a comprehensive guide to the fundamentals of project management, serving as a foundation for becoming a project manager. This essential groundwork is designed for those looking to expand their skills and insights into project management.",
+                            "institution": "Dicoding Academy"
+                        },
+                        "in": {
+                            "title": "Belajar Dasar Manajemen Proyek",
+                            "description": "Kelas ini membahas tuntas dasar manajemen proyek sebagai pondasi menjadi seorang manajer proyek. Fondasi tersebut diperlukan untuk Anda yang ingin mengembangkan kemampuan dan wawasan terkait manajemen proyek.",
+                            "institution": "Dicoding Academy"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1VblnbWbGI-3W4feUB1Us-wzhqjt5sBcl/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
+                }
+            ]
+        }
+    ]
+}

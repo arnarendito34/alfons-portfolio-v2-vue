@@ -1,0 +1,17 @@
+{
+    "preloaderEnabled": true,
+    "navToggleEnabled": true,
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-us.png",
+            "default": true
+        },
+        {
+            "name": "Indonesia",
+            "id": "in",
+            "flagUrl": "images/flags/id.png"
+        }
+    ]
+}
