@@ -5,9 +5,7 @@
             "component": "ArticleSkills",
             "locales": {
                 "en": {"title": null},
-                "es": {"title": null},
-                "fr": {"title": null},
-                "zh": {"title": null}
+                "in": {"title": null}
             },
             "settings": {
                 "order_items_by": "id",
@@ -22,28 +20,18 @@
                     "id": 1,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-users",
-                    "fallbackFaIconColor": "#FF6384",
-                    "percentage": 15,
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": "#4988C4",
+                    "percentage": 25,
                     "locales": {
                         "en": {
-                            "title": "Family Time",
-                            "description": "Time spent with cherished loved ones.",
+                            "title": "IT & Coding",
+                            "description": "Currently diving deep into Web Development with JavaScript frameworks, Mobile Development using Flutter, and Advanced Data Science.",
                             "level": null
                         },
                         "es": {
-                            "title": "Familia",
-                            "description": "Tiempo con seres queridos apreciados.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Famille",
-                            "description": "Temps passé avec des proches chéris.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "家人和朋友",
-                            "description": "与珍爱的亲人共度时光，创造终身难忘的回忆。",
+                            "title": "IT & Coding",
+                            "description": "Sedang mendalami pengembangan web dengan framework JavaScript, pengembangan aplikasi mobile menggunakan Flutter, dan Data Science tingkat Lanjut.",
                             "level": null
                         }
                     }
@@ -52,28 +40,18 @@
                     "id": 2,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-tasks",
-                    "fallbackFaIconColor": "#36A2EB",
-                    "percentage": 29,
+                    "fallbackFaIcon": "fa-solid fa-book",
+                    "fallbackFaIconColor": "#FCB53B",
+                    "percentage": 20,
                     "locales": {
                         "en": {
-                            "title": "My Projects",
-                            "description": "Pursuing my creative endeavors.",
+                            "title": "Reading",
+                            "description": "Avid reader of novels and self-development books.",
                             "level": null
                         },
-                        "es": {
-                            "title": "Mis Proyectos",
-                            "description": "Persiguiendo mis proyectos creativos.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Mes Projets",
-                            "description": "Poursuivre mes projets créatifs.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "个人项目",
-                            "description": "追求创意事业，将想法变成现实。",
+                        "in": {
+                            "title": "Membaca",
+                            "description": "Membaca buku Novels dan Pengembangan diri",
                             "level": null
                         }
                     }
@@ -82,28 +60,18 @@
                     "id": 3,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-couch",
-                    "fallbackFaIconColor": "#FFCD56",
-                    "percentage": 11,
+                    "fallbackFaIcon": "fa-solid fa-person-running",
+                    "fallbackFaIconColor": "#63A361",
+                    "percentage": 15,
                     "locales": {
                         "en": {
-                            "title": "Relaxing",
-                            "description": "Being lazy and proud of it :)",
+                            "title": "Sport",
+                            "description": "Morning workout routine, basketball, and badminton enthusiast.",
                             "level": null
                         },
-                        "es": {
-                            "title": "Relajación",
-                            "description": "Vagueando y orgulloso de ello :)",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Détente",
-                            "description": "Flemmard et fier de l’être :)",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "放松",
-                            "description": "摆烂并为此自豪 :)",
+                        "in": {
+                            "title": "Olahraga",
+                            "description": "Rutinitas olahraga pagi, basket, dan bulutangkis.",
                             "level": null
                         }
                     }
@@ -112,28 +80,18 @@
                     "id": 4,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-book",
-                    "fallbackFaIconColor": "#C5B0FF",
-                    "percentage": 9,
+                    "fallbackFaIcon": "fa-solid fa-paint-brush",
+                    "fallbackFaIconColor": "#85409D",
+                    "percentage": 15,
                     "locales": {
                         "en": {
-                            "title": "Studying",
-                            "description": "Embarking on a continuous journey of learning.",
+                            "title": "Design",
+                            "description": "UI/UX design enthusiast using Figma and creative poster design with Canva.",
                             "level": null
                         },
-                        "es": {
-                            "title": "Estudio",
-                            "description": "Embarcando en un viaje continuo de aprendizaje.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Études",
-                            "description": "Entamer un voyage continu d'apprentissage.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "学习",
-                            "description": "踏上持续的学习和自我提升之旅。",
+                        "in": {
+                            "title": "Desain",
+                            "description": "Gemar desain UI/UX yang menggunakan Figma dan mendesain poster kreatif dengan Canva.",
                             "level": null
                         }
                     }
@@ -142,28 +100,18 @@
                     "id": 5,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-dumbbell",
-                    "fallbackFaIconColor": "#8EE3C5",
-                    "percentage": 17,
+                    "fallbackFaIcon": "fa-solid fa-house",
+                    "fallbackFaIconColor": "#FF0000",
+                    "percentage": 15,
                     "locales": {
                         "en": {
-                            "title": "Exercising",
-                            "description": "Dedicating time to physical well-being.",
+                            "title": "Household",
+                            "description": "Enthusiastic about maintaining a clean and orderly living environment.",
                             "level": null
                         },
-                        "es": {
-                            "title": "Ejercicio",
-                            "description": "Dedicando tiempo al bienestar físico.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Exercice",
-                            "description": "Consacrer du temps au bien-être physique.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "锻炼",
-                            "description": "致力于身体健康，培养健康的生活方式。",
+                        "in": {
+                            "title": "Rumah Tangga",
+                            "description": "Hobi menjaga kebersihan rumah, mulai dari menyapu sampai mencuci.",
                             "level": null
                         }
                     }
@@ -172,28 +120,18 @@
                     "id": 6,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-utensils",
-                    "fallbackFaIconColor": "#EEB79A",
-                    "percentage": 19,
+                    "fallbackFaIcon": "fa-solid fa-chess-knight",
+                    "fallbackFaIconColor": "#F16D34",
+                    "percentage": 10,
                     "locales": {
                         "en": {
-                            "title": "Cooking",
-                            "description": "Creating culinary masterpieces.",
+                            "title": "Games",
+                            "description": "Gaming enthusiast with a focus on strategy and problem-solving games.",
                             "level": null
                         },
-                        "es": {
-                            "title": "Cocina",
-                            "description": "Creando obras maestras culinarias.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Cuisine",
-                            "description": "Créer des chefs-d'œuvre culinaires.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "烹饪",
-                            "description": "创造烹饪杰作，在每道菜肴中注入风味。",
+                        "in": {
+                            "title": "Games",
+                            "description": "Menikmati bermain game sebagai sarana hiburan dan mengasah pemecahan masalah.",
                             "level": null
                         }
                     }
@@ -205,10 +143,10 @@
             "component": "ArticleSkills",
             "locales": {
                 "en": {
-                    "title": "Side pursuits"
+                    "title": "Documentation"
                 },
                 "es": {
-                    "title": "Exploraciones"
+                    "title": "Dokumentasi"
                 },
                 "fr": {
                     "title": "Intérêts annexes"
@@ -224,189 +162,7 @@
                 "transparent_item_icon_background": false,
                 "small_icons": true,
                 "chart": null
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "dateStart": null,
-                    "img": null,
-                    "fallbackFaIcon": "fa-solid fa-paint-brush",
-                    "fallbackFaIconColor": null,
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "User Experience Design",
-                            "description": "Proficient in crafting user-centric digital experiences. Adept at making technology intuitive and accessible, enhancing user satisfaction.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Diseño de Experiencia de Usuario",
-                            "description": "Destacada habilidad en crear experiencias digitales centradas en el usuario. Experto en hacer que la tecnología sea intuitiva y accesible, mejorando la satisfacción del usuario.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Conception d'Expérience Utilisateur",
-                            "description": "Compétent dans la création d'expériences numériques centrées sur l'utilisateur. Habile à rendre la technologie intuitive et accessible, améliorant la satisfaction des utilisateurs.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "用户体验设计",
-                            "description": "擅长创造以用户为中心的数字体验。精通使技术直观易用，提升用户满意度。",
-                            "level": null
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "dateStart": null,
-                    "img": null,
-                    "fallbackFaIcon": "fa-solid fa-keyboard",
-                    "fallbackFaIconColor": null,
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Programming",
-                            "description": "Exploring code, algorithms, and building software solutions for real-world challenges.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Programación",
-                            "description": "Explorar código, algoritmos y desarrollar soluciones de software para desafíos del mundo real.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Programmation",
-                            "description": "Exploration du code, des algorithmes et création de solutions logicielles pour des défis réels.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "编程",
-                            "description": "探索代码、算法，为现实世界的挑战构建软件解决方案。",
-                            "level": null
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "dateStart": null,
-                    "img": null,
-                    "fallbackFaIcon": "fa-solid fa-music",
-                    "fallbackFaIconColor": null,
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Music",
-                            "description": "Playing instruments, composing, and embracing the harmony of diverse musical genres.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Música",
-                            "description": "Tocar instrumentos, componer y abrazar la armonía de diversos géneros musicales.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Musique",
-                            "description": "Jouer d'instruments, composer et apprécier l'harmonie de genres musicaux variés.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "音乐",
-                            "description": "演奏乐器，作曲，融合多种音乐流派的和谐。",
-                            "level": null
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "dateStart": null,
-                    "img": null,
-                    "fallbackFaIcon": "fa-solid fa-users",
-                    "fallbackFaIconColor": null,
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "User Research",
-                            "description": "Delving into user behavior and insights to shape effective design strategies.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Investigación de Usuarios",
-                            "description": "Profundizar en el comportamiento y perspectivas del usuario para definir estrategias de diseño efectivas.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Recherche Utilisateur",
-                            "description": "Explorer le comportement et les perceptions des utilisateurs pour façonner des stratégies de conception efficaces.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "用户研究",
-                            "description": "深入研究用户行为和见解，塑造有效的设计策略。",
-                            "level": null
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "dateStart": null,
-                    "img": null,
-                    "fallbackFaIcon": "fa-solid fa-desktop",
-                    "fallbackFaIconColor": null,
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Front-End Development",
-                            "description": "Crafting interactive web interfaces using modern technologies for seamless user experiences.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Desarrollo Front-End",
-                            "description": "Elaborar interfaces web interactivas utilizando tecnologías modernas para experiencias de usuario fluidas.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Développement Frontal",
-                            "description": "Conception d'interfaces web interactives utilisant des technologies modernes pour des expériences utilisateur fluides.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "前端开发",
-                            "description": "使用现代技术打造交互式网页界面，实现无缝的用户体验。",
-                            "level": null
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "dateStart": null,
-                    "img": null,
-                    "fallbackFaIcon": "fa-solid fa-palette",
-                    "fallbackFaIconColor": null,
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Visual Arts",
-                            "description": "Exploring visual aesthetics, graphic design, and expressing ideas through artistic creativity.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Artes Visuales",
-                            "description": "Explorar la estética visual, el diseño gráfico y expresar ideas a través de la creatividad artística.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Arts Visuels",
-                            "description": "Exploration de l'esthétique visuelle, du design graphique et expression d'idées par la créativité artistique.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "视觉艺术",
-                            "description": "探索视觉美学，平面设计，通过艺术创意表达思想。",
-                            "level": null
-                        }
-                    }
-                }
-            ]
+            }
         }
     ]
 }

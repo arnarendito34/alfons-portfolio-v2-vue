@@ -64,7 +64,7 @@
                 {
                     "id": 3,
                     "dateStart": {"year": 2021, "month": 9},
-                    "dateEnd": {"year": 2025, "month": 7},
+                    "dateEnd": {"year": 2025, "month": 9},
                     "img": "images/places/telu.webp",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
