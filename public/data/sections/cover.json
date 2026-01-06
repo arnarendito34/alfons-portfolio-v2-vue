@@ -15,10 +15,10 @@
                     "id": 1,
                     "locales": {
                         "en": {
-                            "description": "<strong>Bachelor’s degree graduate in Information Systems </strong> from Telkom University (Surabaya Campus) with 3 months of internship experience as a Data Analyst. Highly motivated to learn new things and aspiring to build a career in the Information Technology (IT) field. The core areas of interest include Data Analysis, System Analysis, and Web Development."
+                            "description": "<strong>Bachelor’s degree graduate in Information Systems </strong> from Telkom University (Surabaya Campus) with 3 months of internship experience as a Data Analyst. Strong interest in data analysis and system analysis, with hands-on experience in transforming data into insights through dashboards and analytical reports, supported by familiarity with web-based systems development"
                         },
                         "in": {
-                            "description": "<strong>Lulusan S1 Sistem Informasi</strong> Telkom University (Surabaya Campus) dengan pengalaman magang selama 3 bulan sebagai Data Analyst. Memiliki minat tinggi dalam mempelajari hal baru serta beraspirasi untuk berkarier di bidang Teknologi Informasi (IT). Bidang keahlian utama meliputi Data Analyst, System Analyst, dan Web Development."
+                            "description": "<strong>Lulusan S1 Sistem Informasi</strong> Telkom University (Surabaya Campus) dengan pengalaman magang selama 3 bulan sebagai Data Analyst. Memiliki ketertarikan kuat pada analisis data dan analisis sistem, dengan pengalaman langsung dalam mengolah dan mengubah data menjadi insight melalui dashboard serta laporan analitis, serta didukung pemahaman dalam pengembangan sistem berbasis web."
                         }
                     }
                 },
@@ -27,10 +27,10 @@
                     "id": 2,
                     "locales": {
                         "en": {
-                            "description": "I believe that good design should enhance people's lives, helping them navigate technology with ease and confidence. Let’s work together to bring ideas to life and build something truly amazing!"
+                            "description": "I believe that good design should enhance people's live. Let’s work together to bring ideas to life and build something truly amazing!"
                         },
                         "in": {
-                            "description": "Saya percaya bahwa pekerjaan yang baik seharusnya meningkatkan kehidupan orang, membantu mereka menggunakan teknologi dengan mudah dan percaya diri. Mari bekerja sama untuk mewujudkan ide-ide dan menciptakan sesuatu yang benar-benar luar biasa!"
+                            "description": "Saya percaya bahwa pekerjaan yang baik seharusnya meningkatkan kehidupan orang. Mari bekerja sama untuk mewujudkan ide-ide dan menciptakan sesuatu yang benar-benar luar biasa!"
                         }
                     }
                 },

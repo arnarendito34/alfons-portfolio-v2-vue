@@ -5,32 +5,18 @@
             "component": "ArticlePortfolio",
             "locales": {
                 "en": {
-                    "title": null,
+                     "title": null,
                     "category_all": "All",
-                    "category_productivity": "Productivity",
-                    "category_social": "Social",
-                    "category_utilities": "Utilities"
+                    "category_productivity": "Penelitian",
+                    "category_social": "Proyek",
+                    "category_utilities": "Competition"
                 },
-                "es": {
+                "in": {
                     "title": null,
-                    "category_all": "Todos",
-                    "category_productivity": "Productividad",
-                    "category_social": "Social",
-                    "category_utilities": "Utilidades"
-                },
-                "fr": {
-                    "title": null,
-                    "category_all": "Tous",
-                    "category_productivity": "Productivité",
-                    "category_social": "Social",
-                    "category_utilities": "Utilitaires"
-                },
-                "zh": {
-                    "title": null,
-                    "category_all": "全部",
-                    "category_productivity": "生产力",
-                    "category_social": "社交",
-                    "category_utilities": "工具"
+                    "category_all": "Semua",
+                    "category_productivity": "Penelitian",
+                    "category_social": "Proyek",
+                    "category_utilities": "Lomba"
                 }
             },
             "settings": {
@@ -43,7 +29,7 @@
                     "img": "images/portfolio/project-logo-3.png",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
-                    "category": "productivity",
+                    "category": "social",
                     "locales": {
                         "en": {
                             "title": "BrainPulse",
