@@ -94,13 +94,13 @@
                 "en": {
                     "title": "My *Portfolio*",
                     "title_short": null,
-                    "description": null,
+                    "description": "Coming Soon",
                     "nav_label": "Portfolio"
                 },
                 "in": {
                     "title": "*Portofolio* Saya",
                     "title_short": null,
-                    "description": null,
+                    "description": "Akan Datang",
                     "nav_label": "Portofolio"
                 }
             }

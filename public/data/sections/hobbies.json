@@ -143,16 +143,10 @@
             "component": "ArticleSkills",
             "locales": {
                 "en": {
-                    "title": "Documentation"
+                    "title": "Gallery (Coming Soon)"
                 },
-                "es": {
-                    "title": "Dokumentasi"
-                },
-                "fr": {
-                    "title": "Intérêts annexes"
-                },
-                "zh": {
-                    "title": "额外兴趣"
+                "in": {
+                    "title": "Galeri (Akan Datang)"
                 }
             },
             "settings": {
