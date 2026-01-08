@@ -104,18 +104,20 @@ const _onClick = () => {
 @import "/src/scss/_theming.scss";
 
 div.portfolio-item {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-
+    display: flex;         /* Ubah dari inline-flex ke flex */
+    flex-direction: column; /* Konten disusun ke bawah agar gambar di atas, teks di bawah */
+    align-items: stretch;
     width: 100%;
     height: 100%;
-    background-color: darken($default-section-background, 1%);
-    border-radius: 30px;
+    background-color: darken($default-section-background, 3%);
+    border-radius: 20px;    /* Sesuaikan agar tidak terlalu bulat seperti 30px */
+    overflow: hidden;       /* PENTING: Supaya gambar tidak keluar dari border-radius hitam */
+    
     @include media-breakpoint-down(sm) {
         border-radius: 15px;
     }
-}
+} 
+
 
 /** ----------------- TRANSITIONS ------------------- **/
 div.portfolio-item-hidden {
@@ -139,8 +141,9 @@ div.portfolio-item-showing {
 /** ------------------- CONTENT ---------------------- **/
 div.portfolio-item-content-wrapper {
     --proportion: 0.9;
-    --base-icon-size: 180px;
-    --base-title-size: 22px;
+    --base-icon-width: 250px;
+    --base-icon-height: 150px;
+    --base-title-size: 15px;
 
     @media (max-width: 2000px) {
         --proportion: 0.85;
@@ -169,22 +172,22 @@ div.portfolio-item-content-wrapper {
     }
 
     display: inline-flex;
-    flex-direction: column;
-    cursor: pointer;
-    margin: calc(30px * var(--proportion));
+    flex-direction: row;          // ⬅️ horizontal
+    align-items: center;
+    gap: calc(20px * var(--proportion));
 
     /** Icon View Wrapper **/
     div.portfolio-item-icon-wrapper {
-        position: relative;
-        margin: 0 auto;
-        cursor: pointer;
-        overflow: hidden;
-        user-select: none;
-        pointer-events: none;
-        border-radius: 25%;
-        aspect-ratio: 1/1;
-        width: calc(var(--base-icon-size) * var(--proportion));
-        height: calc(var(--base-icon-size) * var(--proportion));
+    position: relative;
+    flex-shrink: 0 ;
+    margin: 0 ;
+    overflow: hidden;
+    border-radius: 0%;
+    aspect-ratio: 16 / 9;
+    width: calc(var(--base-icon-size) * var(--proportion));
+    height: auto;
+    width: calc(var(--base-icon-width) * var(--proportion));
+    height: calc(var(--base-icon-height) * var(--proportion));
     }
 
     /** Icon View **/
@@ -204,7 +207,7 @@ div.portfolio-item-content-wrapper {
 
         width: 100%;
         height: 100%;
-        border-radius: 25%;
+        border-radius: 0%;
 
         background: fade-out(lighten($primary, 5%), 0.1);
         transition: all ease-in-out 0.25s;
@@ -244,8 +247,11 @@ div.portfolio-item-content-wrapper:hover {
     }
 
     button.portfolio-item-title {
-        color: lighten($primary, 10%);
-        transition: color ease-in-out 0.3s;
+        margin-top: 0;
+    }
+
+    p.portfolio-item-category {
+    margin-top: 4px;
     }
 }
 </style>

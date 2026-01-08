@@ -121,39 +121,19 @@ div.article-portfolio-content-wrapper {
     min-height: min(70vh, 800px);
 
     @include media-breakpoint-down($navigation-sidebar-breakpoint) {
+    flex-direction: column;     
+        text-align: center;
         min-height: 300px;
+
     }
 }
 
 div.items-grid {
     display: grid;
-
-    --gap: 10px;
-    --margin-top: 30px;
-    --grid-template: repeat(4, 1fr);
-
-    @media (min-width: 1800px) {
-        --grid-template: repeat(5, 1fr);
-    }
-    @media (max-width: 1470px) {
-        --grid-template: repeat(4, 1fr);
-    }
-    @media (max-width: 1150px) {
-        --grid-template: repeat(3, 1fr);
-    }
-    @include media-breakpoint-down(lg) {
-        --margin-top: 25px;
-    }
-    @media (max-width: 500px) {
-        --gap: 5px;
-        --margin-top: 20px;
-    }
-    @media (max-width: 380px) {
-        --grid-template: repeat(2, 1fr);
-    }
-
-    gap: var(--gap);
-    margin-top: var(--margin-top);
-    grid-template-columns: var(--grid-template);
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px; /* Sesuaikan dengan lebar bar navigasi kategori kamu */
+    margin: 30px auto 0;
 }
 </style>
