@@ -114,7 +114,7 @@ div.portfolio-item {
     overflow: hidden;       /* PENTING: Supaya gambar tidak keluar dari border-radius hitam */
     
     @include media-breakpoint-down(sm) {
-        border-radius: 15px;
+        border-radius: 0px;
     }
 } 
 

@@ -110,7 +110,7 @@ img.spinner {
 
 div.image-not-found-fallback {
     background-color: rgba(black, 0.2);
-    border-radius: 20px;
+    border-radius: 30px;
 
     width: 100%;
     height: 100%;
