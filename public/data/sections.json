@@ -94,13 +94,13 @@
                 "en": {
                     "title": "My *Portfolio*",
                     "title_short": null,
-                    "description": "Coming Soon",
+                    "description": "Welcome to My Portfolio. This is the main section of the website, where my portfolio is divided into three categories: research, projects, and competitions.",
                     "nav_label": "Portfolio"
                 },
                 "in": {
                     "title": "*Portofolio* Saya",
                     "title_short": null,
-                    "description": "Akan Datang",
+                    "description": "Selamat Datang di Portfolio Saya. Ini merupakan bagian utama dari website, portofolio saya dibagi menjadi 3 bagian: penelitian, proyek, dan kompetisi",
                     "nav_label": "Portofolio"
                 }
             }

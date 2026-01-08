@@ -8,15 +8,15 @@
                      "title": null,
                     "category_all": "All",
                     "category_productivity": "Research",
-                    "category_social": "Project",
-                    "category_utilities": "Competition"
+                    "category_social": "Projects",
+                    "category_utilities": "Competitions"
                 },
                 "in": {
                     "title": null,
                     "category_all": "Semua",
                     "category_productivity": "Penelitian",
                     "category_social": "Proyek",
-                    "category_utilities": "Lomba"
+                    "category_utilities": "Kompetisi"
                 }
             },
             "settings": {
@@ -59,15 +59,102 @@
                         "en": {
                             "title": "Data Analytics: Employee Evaluation Based on SKM Questionnaire",
                             "description": "<b>As a Data Analyst Intern at BPSDMP Kominfo Surabaya</b>, I was responsible for evaluating the performance of more than 30 employees involved in conducting training activities. The assessment was carried out using questionnaire data collected from training participants. as processed and analyzed these evaluation datasets using Python in Google Colab, specifically leveraging the Pandas library to clean, organize, and interpret the results. The final insights were then presented through an interactive dashboard built with Google Looker Studio.",
-                            "tags": ["python", "pandas", "excel", "google colab", "looker studio", "dashboard", "data analyst", "intern"]
+                            "tags": ["python", "pandas", "csv", "excel", "google colab", "looker studio", "dashboard", "data analyst", "intern"]
                         },
                         "in": {
                             "description": "<b>Sebagai Data Analyst Intern di BPSDMP Kominfo Surabaya</b>, Saya bertanggung jawab dalam mengevaluasi kinerja lebih dari 30 karyawan yang terlibat dalam pelaksanaan kegiatan pelatihan. Penilaian dilakukan menggunakan data kuesioner yang dikumpulkan dari peserta pelatihan. Data evaluasi tersebut kemudian diolah dan dianalisis menggunakan Python di Google Colab, dengan memanfaatkan library Pandas untuk proses pembersihan, pengorganisasian, dan interpretasi data. Hasil analisis selanjutnya disajikan dalam bentuk dashboard interaktif menggunakan Google Looker Studio.",
-                            "tags": ["python", "pandas", "excel", "google colab", "looker studio", "dashboard", "data analyst", "intern"]
+                            "tags": ["python", "pandas", "csv", "excel", "google colab", "looker studio", "dashboard", "data analyst", "intern"]
                         }
                     },
                     "links": [
                         {"faIcon": "fa-solid fa-magnifying-glass-chart", "href": "https://lookerstudio.google.com/reporting/1ca37d94-804f-4431-b863-d7077070909a", "stringKey": "Dashboard (Looker Studio)"}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "img": "images/portfolio/s-mindu.jpg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "social",
+                    "locales": {
+                        "en": {
+                            "title": "Mind-U (To-Do List Apps)  Mobile Application",
+                            "description": "<b> Mind-U (To-Do List App) </b> is an Android application to help users manage and organize their planned tasks. The app allows users to create custom task categories—such as schoolwork, household tasks, or organizational activities—with various color options for better visual distinction. Key features of Mind-U include a 12-hour deadline reminder, task completion evidence upload, and customizable category colors. The application is developed using the React Native framework with Firebase as its database support.",
+                            "tags": ["react native", "javascript", "firebase", "project management", "agile methodologies", "figma", "to-do list"]
+                        },
+                        "in": {
+                            "description": "<b>Mind-U (To-Do List Apps)</b> merupakan aplikasi Android untuk membantu pengguna mengelola dan mengingat tugas yang telah direncanakan. Aplikasi ini memungkinkan pengguna membuat serta mengelompokkan tugas ke dalam berbagai kategori, seperti tugas sekolah, pekerjaan rumah, dan kegiatan organisasi, dengan pilihan warna kategori yang beragam. Fitur unggulan pada aplikasi Mind-U meliputi pengingat deadline 12 jam, unggah bukti penyelesaian tugas, serta kustomisasi warna kategori untuk memudahkan pengelolaan tugas secara visual. Aplikasi ini dikembangkan menggunakan framework React Native dengan dukungan basis data Firebase.",
+                            "tags": ["react native", "javascript", "firebase", "manajemen proyek", "metodologi agile", "figma", "to-do list"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/wahyuex/MindU", "stringKey": "Github"},
+                        {"faIcon": "fa-solid fa-mobile-screen", "href": "https://www.figma.com/design/7qwwfsBJgfaPElYqzYolwN/MindU?node-id=12-2&p=f&t=oAE6eMrelBrT5Huq-0", "stringKey": "Figma"}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "img": "images/portfolio/coder.jpg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "social",
+                    "locales": {
+                        "en": {
+                            "title": "UI Design – CODER Organization Profile Website Redesign",
+                            "description": "<b>The CODER Website Re-Design Project</b> is a project carried out by the CODER Student Activity Unit (UKM CODER). This project aims to introduce UKM CODER to students and the campus community, while also demonstrating its openness to collaborate with relevant parties within the campus environment. Additionally, the project is designed to deliver a better and more interactive user experience across various sections of the website, such as the UKM Profile, UKM Divisions, Awards, and other features. In this project, my responsibility was to redesign the Division section, ranging from the Landing Page to the Division Profiles. The design process was conducted using Figma as the primary design tool.",
+                            "tags": ["figma", "redesign", "user interface", "ui/ux design"]
+                        },
+                        "in": {
+                            "description": "<b>Proyek Re-Design Website CODER</b> merupakan proyek yang dikerjakan oleh Unit Kegiatan Mahasiswa (UKM) CODER. Proyek ini bertujuan untuk memperkenalkan UKM CODER kepada seluruh mahasiswa dan lingkungan kampus, serta menunjukkan keterbukaan UKM CODER untuk berkolaborasi dengan pihak-pihak terkait di sekitar kampus. Selain itu, proyek ini dirancang untuk menghadirkan pengalaman pengguna yang lebih baik dan interaktif pada berbagai bagian website, seperti Profil UKM, Divisi UKM, Penghargaan, dan fitur lainnya. Dalam proyek ini, tanggung jawab saya adalah melakukan perancangan ulang pada bagian Divisi, mulai dari Landing Page hingga Profil Divisi. Proses perancangan dilakukan menggunakan Figma sebagai alat desain utama.",
+                            "tags": ["figma", "redesign", "user interface", "ui/ux design"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-mobile-screen", "href": "https://www.figma.com/design/XC95TDVO21BYnGwNamuzFj/Project-UI-UX-Website-Coder?node-id=0-1&p=f&t=vATcEAOlC7aXECVL-0", "stringKey": "Figma"}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "img": "images/portfolio/cash-is.jpg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "social",
+                    "locales": {
+                        "en": {
+                            "title": "Cash-IS (Pharmacy Cashier Information System)",
+                            "description": "<b>Cash-IS (Cash – Information System)</b> is a web-based Point of Sales (POS) application designed to support sales transactions and financial reporting. The application is focused on the pharmacy or apothecary sector to facilitate fast and efficient medicine stock management. Cash-IS offers several key features, including Cashier Apps for fast transaction processing, Income Reports to view detailed revenue records, and Outcome Reports to help monitor and control expenses. The application is built using the Laravel framework to ensure optimal performance and data management.",
+                            "tags": ["website", "laravel", "pharmacy", "point of sales", "cashier", "stock management"]
+                        },
+                        "in": {
+                            "description": "<b>Cash-IS (Cash – Information System)</b> merupakan aplikasi Point of Sales (POS) berbasis website yang membantu proses transaksi penjualan serta penyusunan laporan keuangan. Aplikasi ini difokuskan pada bidang farmasi atau apotek untuk memudahkan pengelolaan stok obat secara cepat dan efisien. Cash-IS memiliki beberapa fitur utama, antara lain Cashier Apps untuk memproses transaksi dengan cepat, Income Report untuk melihat rincian laporan pemasukan, serta Outcome Report untuk membantu memahami dan mengontrol pengeluaran. Aplikasi ini dibangun menggunakan framework Laravel untuk mendukung performa dan pengelolaan data yang optimal.",
+                            "tags": ["website", "laravel", "farmasi", "point of sales", "kasir", "manajemen stok"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/wahyuex/CashIS", "stringKey": "Github"},
+                        {"faIcon": "fa-solid fa-laptop", "href": "https://www.figma.com/design/VbatGRFbXcR8f7gmKD1yVE/Untitled?node-id=0-1&t=OxcBKklPPE0rnpOo-1", "stringKey": "Figma"}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "img": "images/portfolio/sacral.jpg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "utilities",
+                    "locales": {
+                        "en": {
+                            "title": "Sacral (Save of Coral) - Playbox Season 4 Competition",
+                            "description": "With the theme <b>“Maritime Innovation to Face Climate Change and Economic Growth in Indonesia”</b> in the Start-Up Innovation Competition Playbox Season 4, organized by Institut Teknologi Telkom Surabaya, my team developed a project called Save Our Coral (SACRAL), an IoT-based application concept designed to support coral reef conservation. This project focuses on monitoring coral reef health by analyzing various water condition parameters, enabling early detection of environmental changes that may harm marine ecosystems. However, the project was completed only up to the design stage.",
+                            "tags": ["Maritime Industry", "IoT", "coral", "Start-up Technology", "ui/ux design"]
+                        },
+                        "in": {
+                            "description": "Dengan mengusung tema <b>“Maritime Innovation to Face Climate Change and Economic Growth in Indonesia”</b> di kompetisi Inovasi Start-Up Playbox Season 4 yang diselenggarakan Institut Teknologi Telkom Surabaya, tim saya mengembangkan sebuah proyek bernama <b>Save Our Coral (SACRAL)</b>, yaitu konsep aplikasi berbasis IoT yang dirancang untuk mendukung pelestarian terumbu karang. Proyek ini berfokus pada pemantauan kesehatan terumbu karang melalui analisis berbagai parameter kondisi perairan, sehingga dapat membantu mendeteksi perubahan lingkungan yang berpotensi merusak ekosistem laut. Namun, proyek ini hanya diselesaikan hingga tahap perancangan (desain).",
+                            "tags": ["industri maritim", "IoT", "terumbu karang", "teknologi start-up", "ui/ux design"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-regular fa-image", "href": "https://drive.google.com/file/d/1cCT2IbxL2b7r87yQ4m9UAOhXzETspFcu/view?usp=sharing", "stringKey": "Business Model Canvas (Indonesia)"},
+                        {"faIcon": "fa-solid fa-mobile-screen", "href": "https://www.figma.com/file/cFOI1TfgxFEMB6rzMXbjSh/Playbox", "stringKey": "Figma"}
                     ]
                 }
             ]

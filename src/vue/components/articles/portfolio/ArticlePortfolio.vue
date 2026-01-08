@@ -130,10 +130,22 @@ div.article-portfolio-content-wrapper {
 
 div.items-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+    grid-template-columns: repeat(2, 1fr); // Desktop & Tablet
     gap: 20px;
     width: 100%;
-    max-width: 1000px; /* Sesuaikan dengan lebar bar navigasi kategori kamu */
+    max-width: 1000px;
     margin: 30px auto 0;
+
+    // Tablet kecil
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    // Android / Mobile
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr; // 1 kolom
+        gap: 16px;
+        padding: 0 16px;
+    }
 }
 </style>

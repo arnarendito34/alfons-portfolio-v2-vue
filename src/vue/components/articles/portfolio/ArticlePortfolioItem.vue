@@ -110,7 +110,7 @@ div.portfolio-item {
     width: 100%;
     height: 100%;
     background-color: darken($default-section-background, 3%);
-    border-radius: 20px;    /* Sesuaikan agar tidak terlalu bulat seperti 30px */
+    border-radius: 0px;    /* Sesuaikan agar tidak terlalu bulat seperti 30px */
     overflow: hidden;       /* PENTING: Supaya gambar tidak keluar dari border-radius hitam */
     
     @include media-breakpoint-down(sm) {
