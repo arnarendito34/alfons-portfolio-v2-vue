@@ -12,7 +12,7 @@
                 <div v-for="(item) in [
                     {id: 'name', faIcon: 'fa-solid fa-signature', type: 'text'},
                     {id: 'email', faIcon: 'fa-solid fa-envelope', type: 'email'},
-                    {id: 'subject', faIcon: 'fa-solid fa-pen-to-square', type: 'text'},
+                    {id: 'subject', faIcon: 'fa-solid fa-pen-to-square', type: 'text'}
                 ]" class="form-group input-group" :class="focusId === item.id ? `form-group-focused` : ``">
                     <!-- Icon Attach -->
                     <span class="input-group-text input-group-attach">
