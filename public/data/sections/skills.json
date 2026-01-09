@@ -196,11 +196,11 @@
                     "percentage": 95,
                     "locales": {
                         "en": {
-                            "title": "Microsoft Excel/Spreadsheet,",
+                            "title": "Microsoft Excel/Spreadsheet",
                             "description": "VLOOKUP/HLOOKUP, Pivot Tables, Power Query, Data Cleaning, Macro & VBA, Logical Functions (IF, AND, OR)."
                         },
                         "in": {
-                            "title": "Microsoft Excel/Spreadsheet,",
+                            "title": "Microsoft Excel/Spreadsheet",
                             "description": "VLOOKUP/HLOOKUP, Pivot Tables, Power Query, Pembersihan Data (Data Cleaning), Macro & VBA, Fungsi Logika (IF, AND, OR)."
                         }
                     }

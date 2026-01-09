@@ -9,7 +9,7 @@
          }">
         <!-- Loader Content -->
         <div class="resume-loader-content">
-            <ImageView src="images/icons/resume.ico"
+            <ImageView src="images/icons/hello-world.png"
                        alt="Logo"
                        class="image-view-logo"
                        :class="{
@@ -261,8 +261,9 @@ div.resume-loader-content {
 }
 
 div.image-view-logo {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
     z-index: 10;
     opacity: 0;
 
@@ -289,7 +290,7 @@ div.resume-loader-progress-display {
     }
 
     .resume-loader-progress-bar {
-        max-width: 55px;
+        max-width: 100px;
         margin: 0 auto;
     }
 }
