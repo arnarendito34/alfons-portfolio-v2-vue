@@ -12,6 +12,32 @@
             "name": "Indonesia",
             "id": "in",
             "flagUrl": "images/flags/id.png"
+        },
+        {
+            "name": "Spain",
+            "id": "es",
+            "flagUrl": "images/flags/es.png"
+        },
+        {
+            "name": "China",
+            "id": "zh",
+            "flagUrl": "images/flags/zh.png"
+        },
+        {
+            "name": "Netherland",
+            "id": "nl",
+            "flagUrl": "images/flags/nl.png"
+        },
+        {
+            "name": "Korean",
+            "id": "ko",
+            "flagUrl": "images/flags/ko.png"
+        },
+        {
+            "name": "Japan",
+            "id": "ja",
+            "flagUrl": "images/flags/ja.png"
         }
+
     ]
 }
