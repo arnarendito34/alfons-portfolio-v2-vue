@@ -119,10 +119,10 @@
                     "nav_label": "Achievements"
                 },
                 "in": {
-                    "title": "*Penghargaan*",
+                    "title": "*Pencapaian*",
                     "title_short": null,
                     "description": null,
-                    "nav_label": "Penghargaan"
+                    "nav_label": "Pencapaian"
                 }
             }
         },
