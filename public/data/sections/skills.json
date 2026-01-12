@@ -26,7 +26,7 @@
                             "description": null,
                             "level": null
                         },
-                        "In": {
+                        "in": {
                             "title": "Kepemimpinan",
                             "description": null,
                             "level": null
@@ -46,7 +46,7 @@
                             "description": null,
                             "level": null
                         },
-                        "In": {
+                        "in": {
                             "title": "Analytical Thinking",
                             "description": null,
                             "level": null
@@ -55,6 +55,26 @@
                 },
                 {
                     "id": 3,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-magnifying-glass",
+                    "fallbackFaIconColor": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Detail-Oriented",
+                            "description": null,
+                            "level": null
+                        },
+                        "in": {
+                            "title": "Detail-Oriented",
+                            "description": null,
+                            "level": null
+                        }
+                    }
+                },
+                {
+                    "id": 4,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-puzzle-piece",
@@ -66,7 +86,7 @@
                             "description": null,
                             "level": null
                         },
-                        "In": {
+                        "in": {
                             "title": "Problem Solving",
                             "description": null,
                             "level": null
@@ -74,7 +94,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-user-clock",
@@ -86,7 +106,7 @@
                             "description": null,
                             "level": null
                         },
-                        "In": {
+                        "in": {
                             "title": "Time Management",
                             "description": null,
                             "level": null
@@ -94,7 +114,7 @@
                     }
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-people-group",
@@ -106,7 +126,7 @@
                             "description": null,
                             "level": null
                         },
-                        "In": {
+                        "in": {
                             "title": "Team Collaboration",
                             "description": null,
                             "level": null
@@ -114,7 +134,7 @@
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 7,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-comments",
@@ -126,7 +146,7 @@
                             "description": null,
                             "level": null
                         },
-                        "In": {
+                        "in": {
                             "title": "Good Communication",
                             "description": null,
                             "level": null
@@ -134,7 +154,7 @@
                     }
                 },
                 {
-                    "id": 7,
+                    "id": 8,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-shuffle",
@@ -146,7 +166,7 @@
                             "description": null,
                             "level": null
                         },
-                        "In": {
+                        "in": {
                             "title": "Adaptif",
                             "description": null,
                             "level": null
