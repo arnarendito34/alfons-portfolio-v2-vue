@@ -15,10 +15,10 @@
                     "id": 1,
                     "locales": {
                         "en": {
-                            "description": "<strong>Bachelor’s Degree graduate in Information Systems</strong> from Telkom University (Surabaya Campus) with a 3-month internship experience as a Data Analyst. Strong interest in data analysis and system analysis, with hands-on experience in analyzing and transforming data into insights through dashboards and analytical reports. Additionally, experienced in developing and building web applications and digital systems using Laravel, Flask, and Vue.js, with a solid understanding of data integration within systems to support business needs."
+                            "description": "<strong>Bachelor’s Degree graduate in Information Systems</strong> from Telkom University (Surabaya Campus) with a 3-month internship experience as a Data Analyst. Strong interest in data analysis and system analysis, with hands-on experience in analyzing and transforming data into insights through dashboards and analytical reports. Additionally, experienced in developing web applications and digital systems using Laravel, Flask, and Vue.js, with a solid understanding of data integration within systems to support business needs."
                         },
                         "in": {
-                            "description": "<strong>Lulusan S1 Sistem Informasi</strong> Telkom University (Surabaya Campus) dengan pengalaman magang selama 3 bulan sebagai Data Analyst. Memiliki ketertarikan kuat pada analisis data dan analisis sistem, serta berpengalaman dalam mengolah dan mengubah data menjadi insight melalui dashboard dan laporan analitis. Selain itu, berpengalaman dalam membangun dan mengembangkan aplikasi web serta sistem digital menggunakan Laravel, Flask, dan Vue.js, serta memahami integrasi data dalam sistem untuk mendukung kebutuhan bisnis."
+                            "description": "<strong>Lulusan S1 Sistem Informasi</strong> Telkom University (Surabaya Campus) dengan pengalaman magang selama 3 bulan sebagai Data Analyst. Memiliki ketertarikan kuat pada analisis data dan analisis sistem, serta berpengalaman dalam mengolah dan mengubah data menjadi insight melalui dashboard dan laporan analitis. Selain itu, berpengalaman dalam mengembangkan aplikasi web serta sistem digital menggunakan Laravel, Flask, dan Vue.js, serta memahami integrasi data dalam sistem untuk mendukung kebutuhan bisnis."
                         }
                     }
                 },
