@@ -221,7 +221,7 @@
                         },
                         "in": {
                             "title": "Microsoft Excel/Spreadsheet",
-                            "description": "VLOOKUP/HLOOKUP, Pivot Tables, Power Query, Pembersihan Data (Data Cleaning), Macro & VBA, Fungsi Logika (IF, AND, OR)."
+                            "description": "VLOOKUP/HLOOKUP, XLOOKUP, Pivot Tables, Power Query, Pembersihan Data (Data Cleaning), Macro & VBA, Fungsi Logika (IF, AND, OR)."
                         }
                     }
                 },
@@ -626,12 +626,12 @@
                     "percentage": 90,
                     "locales": {
                         "en": {
-                            "title": "MySQL",
-                            "description": "Skilled in managing MySQL databases, including schema design and query optimization."
+                            "title": "SQL (MySQL & PostgreSQL)",
+                            "description": "Skilled in managing SQL (MySQL & PostgreSQL) databases, including schema design and query optimization."
                         },
                         "in": {
-                            "title": "MySQL",
-                            "description": "Ahli dalam mengelola basis data MySQL, termasuk perancangan skema dan optimasi kueri."
+                            "title": "SQL (MySQL & PostgreSQL)",
+                            "description": "Ahli dalam mengelola basis data SQL (MySQL & PostgreSQL) , termasuk perancangan skema dan optimasi kueri."
                         }
                     }
                 },
