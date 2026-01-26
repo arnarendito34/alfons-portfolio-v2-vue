@@ -217,7 +217,7 @@
                     "locales": {
                         "en": {
                             "title": "Microsoft Excel/Spreadsheet",
-                            "description": "VLOOKUP/HLOOKUP, Pivot Tables, Power Query, Data Cleaning, Macro & VBA, Logical Functions (IF, AND, OR)."
+                            "description": "VLOOKUP/HLOOKUP, XLOOKUP, Pivot Tables, Power Query, Data Cleaning, Macro & VBA, Logical Functions (IF, AND, OR)."
                         },
                         "in": {
                             "title": "Microsoft Excel/Spreadsheet",
