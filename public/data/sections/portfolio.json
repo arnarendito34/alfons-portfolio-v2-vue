@@ -34,11 +34,11 @@
                         "en": {
                             "title": "Hybrid-Based Researcher Recommendation System",
                             "description": "<b>Hybrid-Based Researcher Recommendation System</b> is a researcher recommendation application for lecturers at Telkom University Surabaya, designed to assist students in selecting suitable research partners or academic supervisors based on their research topics. The system was developed using the CRISP-DM methodology and applies Machine Learning and Natural Language Processing (NLP) techniques by leveraging lecturers’ scientific publication data from Google Scholar. The modeling process utilizes Latent Dirichlet Allocation (LDA) for topic modeling and Naive Bayes for classification, evaluated using Cross-Validation and standard evaluation metrics, achieving an accuracy of 87.65%, precision of 86.14%, recall of 84.61%, and an F1-score of 84.88%. The trained model was then deployed into a web-based application using Flask (Python) and Bootstrap.",
-                            "tags": ["Machine Leaning", "Natural Language Processing", "Naïve Bayes", "Latent Dirichlet Allocation", "Recommendation System", "Flask", "Bootstrap"]
+                            "tags": ["Data Analyst", "Web Development","Machine Leaning", "Natural Language Processing", "Naïve Bayes", "Latent Dirichlet Allocation", "Recommendation System", "SQL", "Flask", "Bootstrap"]
                         },
                         "in": {
                             "description": "<b>Hybrid-Based Researcher Recommendation System</b> merupakan aplikasi sistem rekomendasi dosen peneliti Telkom University Surabaya yang digunakan untuk membantu mahasiswa menentukan partner penelitian maupun dosen pembimbing yang sesuai dengan topik penelitian. Sistem ini dikembangkan menggunakan metodologi CRISP-DM dan menerapkan pendekatan Machine Learning serta Natural Language Processing (NLP) dengan memanfaatkan data publikasi ilmiah dosen (Google Scholar). Pemodelan dilakukan menggunakan Latent Dirichlet Allocation (LDA) untuk topic modeling dan Naive Bayes untuk klasifikasi, dengan evaluasi menggunakan Cross-Validation dan Metric Evaluasi yang menghasilkan akurasi 87,65%, Precision 86,14%, Recall 84,61%, dan F1-Score 84,88%. Model kemudian diimplementasikan ke dalam aplikasi web menggunakan Flask (Python) dan Bootstrap.",
-                            "tags": ["Machine Leaning", "Natural Language Processing", "Naïve Bayes", "Latent Dirichlet Allocation", "Sistem Rekomendasi", "Flask", "Bootstrap"]
+                            "tags": ["Data Analyst", "Web Development", "Machine Leaning", "Natural Language Processing", "Naïve Bayes", "Latent Dirichlet Allocation", "Sistem Rekomendasi", "SQL", "Flask", "Bootstrap"]
                         }
                     },
                     "links": [
@@ -51,6 +51,27 @@
                 },
                 {
                     "id": 2,
+                    "img": "images/portfolio/sku.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "productivity",
+                    "locales": {
+                        "en": {
+                            "title": "Data Analytics: Stock Dashboard & Reporting",
+                            "description": "<b>Analyzing product sales data</b>, such as determining the highest product usage, average product usage, and average daily usage.",
+                            "tags": ["Data Analyst","Google Spreadsheet", "looker studio"]
+                        },
+                        "in": {
+                            "description": "<b>Menganalisis Data Penjualan Produk</b> seperti penentukan pemakaian produk tertinggi, rata-rata pemakaian produk, dan rata-rata pemakaian harian.",
+                            "tags": ["Data Analyst","Google Spreadsheet", "looker studio"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-magnifying-glass-chart", "href": "https://lookerstudio.google.com/reporting/7d69d81d-624d-4b56-8e5d-d512fcdfd834", "stringKey": "Dashboard (Looker Studio)"}
+                    ]
+                },
+                {
+                    "id": 3,
                     "img": "images/portfolio/skm.jpeg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -59,11 +80,11 @@
                         "en": {
                             "title": "Data Analytics: Employee Evaluation Based on SKM Questionnaire",
                             "description": "<b>As a Data Analyst Intern at BPSDMP Kominfo Surabaya</b>, I was responsible for evaluating the performance of more than 30 employees involved in conducting training activities. The assessment was carried out using questionnaire data collected from training participants. as processed and analyzed these evaluation datasets using Python in Google Colab, specifically leveraging the Pandas library to clean, organize, and interpret the results. The final insights were then presented through an interactive dashboard built with Google Looker Studio.",
-                            "tags": ["python", "pandas", "csv", "excel", "google colab", "looker studio", "dashboard", "data analyst", "intern"]
+                            "tags": ["Data Analyst","python", "pandas", "csv", "excel", "google colab", "looker studio", "dashboard", "intern"]
                         },
                         "in": {
                             "description": "<b>Sebagai Data Analyst Intern di BPSDMP Kominfo Surabaya</b>, Saya bertanggung jawab dalam mengevaluasi kinerja lebih dari 30 karyawan yang terlibat dalam pelaksanaan kegiatan pelatihan. Penilaian dilakukan menggunakan data kuesioner yang dikumpulkan dari peserta pelatihan. Data evaluasi tersebut kemudian diolah dan dianalisis menggunakan Python di Google Colab, dengan memanfaatkan library Pandas untuk proses pembersihan, pengorganisasian, dan interpretasi data. Hasil analisis selanjutnya disajikan dalam bentuk dashboard interaktif menggunakan Google Looker Studio.",
-                            "tags": ["python", "pandas", "csv", "excel", "google colab", "looker studio", "dashboard", "data analyst", "intern"]
+                            "tags": ["Data Analyst","python", "pandas", "csv", "excel", "google colab", "looker studio", "dashboard", "intern"]
                         }
                     },
                     "links": [
@@ -71,7 +92,7 @@
                     ]
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "img": "images/portfolio/s-mindu.jpg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -80,11 +101,11 @@
                         "en": {
                             "title": "Mind-U (To-Do List Apps)  Mobile Application",
                             "description": "<b> Mind-U (To-Do List App) </b> is an Android application to help users manage and organize their planned tasks. The app allows users to create custom task categories—such as schoolwork, household tasks, or organizational activities—with various color options for better visual distinction. Key features of Mind-U include a 12-hour deadline reminder, task completion evidence upload, and customizable category colors. The application is developed using the React Native framework with Firebase as its database support.",
-                            "tags": ["react native", "javascript", "firebase", "project management", "agile methodologies", "figma", "to-do list"]
+                            "tags": ["Fullstack-Dev", "Mobile Development", "react native", "javascript", "firebase", "project management", "agile methodologies", "figma", "to-do list"]
                         },
                         "in": {
                             "description": "<b>Mind-U (To-Do List Apps)</b> merupakan aplikasi Android untuk membantu pengguna mengelola dan mengingat tugas yang telah direncanakan. Aplikasi ini memungkinkan pengguna membuat serta mengelompokkan tugas ke dalam berbagai kategori, seperti tugas sekolah, pekerjaan rumah, dan kegiatan organisasi, dengan pilihan warna kategori yang beragam. Fitur unggulan pada aplikasi Mind-U meliputi pengingat deadline 12 jam, unggah bukti penyelesaian tugas, serta kustomisasi warna kategori untuk memudahkan pengelolaan tugas secara visual. Aplikasi ini dikembangkan menggunakan framework React Native dengan dukungan basis data Firebase.",
-                            "tags": ["react native", "javascript", "firebase", "manajemen proyek", "metodologi agile", "figma", "to-do list"]
+                            "tags": ["Fullstack-Dev", "Mobile Development","react native", "javascript", "firebase", "manajemen proyek", "metodologi agile", "figma", "to-do list"]
                         }
                     },
                     "links": [
@@ -93,7 +114,7 @@
                     ]
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "img": "images/portfolio/coder.jpg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -114,7 +135,7 @@
                     ]
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "img": "images/portfolio/cash-is.jpg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -123,11 +144,11 @@
                         "en": {
                             "title": "Cash-IS (Pharmacy Cashier Information System)",
                             "description": "<b>Cash-IS (Cash – Information System)</b> is a web-based Point of Sales (POS) application designed to support sales transactions and financial reporting. The application is focused on the pharmacy or apothecary sector to facilitate fast and efficient medicine stock management. Cash-IS offers several key features, including Cashier Apps for fast transaction processing, Income Reports to view detailed revenue records, and Outcome Reports to help monitor and control expenses. The application is built using the Laravel framework to ensure optimal performance and data management.",
-                            "tags": ["website", "laravel", "pharmacy", "point of sales", "cashier", "stock management"]
+                            "tags": ["Web Development","Sales Analyst","website", "laravel", "pharmacy", "point of sales", "cashier", "stock management"]
                         },
                         "in": {
                             "description": "<b>Cash-IS (Cash – Information System)</b> merupakan aplikasi Point of Sales (POS) berbasis website yang membantu proses transaksi penjualan serta penyusunan laporan keuangan. Aplikasi ini difokuskan pada bidang farmasi atau apotek untuk memudahkan pengelolaan stok obat secara cepat dan efisien. Cash-IS memiliki beberapa fitur utama, antara lain Cashier Apps untuk memproses transaksi dengan cepat, Income Report untuk melihat rincian laporan pemasukan, serta Outcome Report untuk membantu memahami dan mengontrol pengeluaran. Aplikasi ini dibangun menggunakan framework Laravel untuk mendukung performa dan pengelolaan data yang optimal.",
-                            "tags": ["website", "laravel", "farmasi", "point of sales", "kasir", "manajemen stok"]
+                            "tags": ["Web Development","Sales Analyst","website", "laravel", "farmasi", "point of sales", "kasir", "manajemen stok"]
                         }
                     },
                     "links": [
@@ -136,7 +157,7 @@
                     ]
                 },
                 {
-                    "id": 6,
+                    "id": 7,
                     "img": "images/portfolio/sacral.jpg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
