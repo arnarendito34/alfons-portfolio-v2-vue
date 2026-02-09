@@ -7,16 +7,16 @@
                 "en": {
                      "title": null,
                     "category_all": "All",
-                    "category_productivity": "Research",
-                    "category_social": "Projects",
-                    "category_utilities": "Competitions"
+                    "category_productivity": "Data Spesialist",
+                    "category_social": "Software Development",
+                    "category_utilities": "Project Competitions"
                 },
                 "in": {
                     "title": null,
                     "category_all": "Semua",
-                    "category_productivity": "Penelitian",
-                    "category_social": "Proyek",
-                    "category_utilities": "Kompetisi"
+                    "category_productivity": "Spesialis Data",
+                    "category_social": "Software Development",
+                    "category_utilities": "Kompetisi Proyek"
                 }
             },
             "settings": {
@@ -25,7 +25,7 @@
             },
             "items": [
                 {
-                    "id": 1,
+                    "id": 2,
                     "img": "images/portfolio/siredo.jpeg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -50,7 +50,7 @@
                     ]
                 },
                 {
-                    "id": 2,
+                    "id": 1,
                     "img": "images/portfolio/sku.png",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,

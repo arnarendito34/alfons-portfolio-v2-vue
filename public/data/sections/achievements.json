@@ -167,8 +167,8 @@
             "id": 2,
             "component": "ArticleThread",
             "locales": {
-                "en": {"title": "Certifications"},
-                "in": {"title": "Sertifikasi"}
+                "en": {"title": "Professional Certifications"},
+                "in": {"title": "Sertifikasi Profesional"}
             },
             "settings": {
                 "order_items_by": "id",
@@ -198,27 +198,6 @@
                 },
                 {
                     "id": 2,
-                    "dateStart": {"year": 2022, "month": 8},
-                    "fallbackFaIcon": "fa-brands fa-microsoft",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "Basic Skill Microsoft Excel in 90 Minutes",
-                            "description": "Participate in a 90-minute Microsoft Excel workshop involving data processing.",
-                            "institution": "KarirLab"
-                        },
-                        "in": {
-                            "title": "Basic Skill Microsoft Excel dalam 90 Menit",
-                            "description": "Berpartisipasi dalam kegiatan workshop Microsoft Excel yang melakukan pengolahan data selama 90 menit.",
-                            "institution": "KarirLab"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://drive.google.com/file/d/1r1JAUhVylyfqM48lxKZNBcYkZzkmV7hp/view?usp=sharing", "stringKey": "view_certification"}
-                    ]
-                },
-                {
-                    "id": 3,
                     "dateStart": {"year": 2023, "month": 0},
                     "fallbackFaIcon": "fa-solid fa-laptop",
                     "fallbackFaIconColor": null,
@@ -239,7 +218,7 @@
                     ]
                 },
                 {
-                    "id": 4,
+                    "id": 3,
                     "dateStart": {"year": 2024, "month": 1},
                     "fallbackFaIcon": "fa-solid fa-laptop",
                     "fallbackFaIconColor": null,
@@ -257,111 +236,6 @@
                     },
                     "links": [
                         {"href": "https://drive.google.com/file/d/1G5eS0MBOx7Ox-96UkX38C30SkpL2a8tt/view?usp=sharing", "stringKey": "view_certification"}
-                    ]
-                },
-                {
-                    "id": 5,
-                    "dateStart": {"year": 2024, "month": 5},
-                    "fallbackFaIcon": "fa-solid fa-school",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "DevOpS Course Certification",
-                            "description": "Participate in Development & Operation (DevOps) workshop activities organized by Intellipaat Academy",
-                            "institution": "Intellipaat Academy"
-                        },
-                        "in": {
-                            "title": "DevOpS Course Certification",
-                            "description": "Berpartisipasi dalam kegiatan workshop Development & Operation (DevOps) yang diselenggarakan oleh Intellipaat Academy",
-                            "institution": "Intellipaat Academy"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://drive.google.com/file/d/12wxEMiaToCfA85HTjb0YpZLt7nJnK6fc/view?usp=sharing", "stringKey": "view_certification"}
-                    ]
-                },
-                {
-                    "id": 6,
-                    "dateStart": {"year": 2024, "month": 6},
-                    "fallbackFaIcon": "fa-solid fa-code",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "Belajar Dasar AI",
-                            "description": "This course is intended for beginners seeking to launch a career in the world of AI. Upon completion, students are expected to be able to analyze various fundamental AI concepts and their applications effectively.",
-                            "institution": "Dicoding Academy"
-                        },
-                        "in": {
-                            "title": "Belajar Dasar AI",
-                            "description": "Kelas ini ditujukan untuk pemula yang ingin memulai karier di dunia AI. Setelah mengikuti kelas, siswa diharapkan mampu menelaah berbagai konsep dasar dalam AI beserta penerapannya dengan baik.",
-                            "institution": "Dicoding Academy"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://drive.google.com/file/d/1Eu7Mqll77zLb7Iumnvli8-G3pDt9ILDA/view?usp=sharing", "stringKey": "view_certification"}
-                    ]
-                },
-                {
-                    "id": 7,
-                    "dateStart": {"year": 2024, "month": 6},
-                    "fallbackFaIcon": "fa-solid fa-code",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "Belajar Dasar Visualisasi Data",
-                            "description": "This course is designed for beginners looking to launch their careers in data processing, aligned with industry competency standards. By the end of the course, students will be able to create effective data visualizations using Google Sheets.",
-                            "institution": "Dicoding Academy"
-                        },
-                        "in": {
-                            "title": "Belajar Dasar Visualisasi Data",
-                            "description": "Kelas ditujukan bagi pemula yang ingin memulai karirnya di bidang pengolahan data dengan mengacu pada standar kompetensi industri. Di akhir kelas, siswa dapat membuat sebuah visualisasi data yang efektif menggunakan Google Sheets.",
-                            "institution": "Dicoding Academy"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://drive.google.com/file/d/1XyDoywStfcSDDI51UD94hMdoluahnGwL/view?usp=sharing", "stringKey": "view_certification"}
-                    ]
-                },
-                {
-                    "id": 8,
-                    "dateStart": {"year": 2024, "month": 7},
-                    "fallbackFaIcon": "fa-solid fa-code",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "Belajar Dasar Structured Query Language (SQL)",
-                            "description": "This course is designed for individuals aspiring to become Data Analysts or Data Scientists by mastering Structured Query Language (SQL). By the end of the course, students will be able to master fundamental queries commonly used in data management.",
-                            "institution": "Dicoding Academy"
-                        },
-                        "in": {
-                            "title": "Belajar Dasar Structured Query Language (SQL)",
-                            "description": "Kelas ini ditujukan untuk individu yang ingin melangkah menjadi seorang data analyst atau data scientist dengan mempelajari bahasa Structured Query Language (SQL). Di akhir kelas, siswa dapat menguasai berbagai query dasar yang sering digunakan dalam mengelola data menggunakan bahasa structured query language (SQL).",
-                            "institution": "Dicoding Academy"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://drive.google.com/file/d/1Z9OZxUHQSBbHt9V6Yu1gLWLienHIB1Bf/view?usp=sharing", "stringKey": "view_certification"}
-                    ]
-                },
-                {
-                    "id": 9,
-                    "dateStart": {"year": 2024, "month": 8},
-                    "fallbackFaIcon": "fa-solid fa-code",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "Belajar Dasar Manajemen Proyek",
-                            "description": "This course provides a comprehensive guide to the fundamentals of project management, serving as a foundation for becoming a project manager. This essential groundwork is designed for those looking to expand their skills and insights into project management.",
-                            "institution": "Dicoding Academy"
-                        },
-                        "in": {
-                            "title": "Belajar Dasar Manajemen Proyek",
-                            "description": "Kelas ini membahas tuntas dasar manajemen proyek sebagai pondasi menjadi seorang manajer proyek. Fondasi tersebut diperlukan untuk Anda yang ingin mengembangkan kemampuan dan wawasan terkait manajemen proyek.",
-                            "institution": "Dicoding Academy"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://drive.google.com/file/d/1VblnbWbGI-3W4feUB1Us-wzhqjt5sBcl/view?usp=sharing", "stringKey": "view_certification"}
                     ]
                 }
             ]
