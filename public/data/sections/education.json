@@ -71,7 +71,7 @@
                     "locales": {
                         "en": {
                             "title": "Telkom University (Surabaya Campus)",
-                            "description": "<strong>Bachelor of Information System</strong> | GPA : 3.57 <br/> <strong>Thesis Title</strong> : Implementation of Latent Dirichlet Allocation and Naïve Bayes for Research Supervisor Recommendation at Telkom University Surabaya Based on Google Scholar-Indexed Publications.<br/><strong>Relevant Subjects</strong> : Information System Analysis and Design, Data Mining, Data Warehouse & Business Intelligence, Machine Learning, Natural Language Processing, UI/UX Development, and Web Programming. ",
+                            "description": "<strong>Bachelor of Information System</strong> | GPA : 3.57 <br/> <strong>Thesis Title</strong> : Implementation of Latent Dirichlet Allocation and Naïve Bayes for Research Supervisor Recommendation at Telkom University Surabaya Based on Google Scholar-Indexed Publications.<br/><strong>Relevant Coursework</strong> : Data Mining, Web Programming, Framework Programming, Database Relationship, and UI/UX Development, Data Warehouse & Business Intelligence, and Natural Language Processing.",
                             "province": "Surabaya",
                             "country": "East Java",
                             "institution": "Bachelor",
@@ -79,7 +79,7 @@
                         },
                         "in": {
                             "title": "Universitas Telkom (Kampus Kota Surabaya)",
-                            "description": "<strong>S1-Sistem Informasi</strong> | IPK : 3.57<br/> <strong>Judul Tugas Akhir</strong> : Penerapan Latent Dirichlet Allocation & Naïve Bayes untuk Rekomendasi Dosen Peneliti Telkom University Surabaya Berdasarkan Publikasi Terindeks Google Scholar. <br/><strong>Mata Kuliah Relevan</strong> : Analisis dan Perancangan Sistem Informasi, Data Mining, Data Warehouse & Business Intelligence, Machine Learning, Natural Language Processing, Pengembangan UI/UX, dan Pemrograman Web. ",
+                            "description": "<strong>S1-Sistem Informasi</strong> | IPK : 3.57<br/> <strong>Judul Tugas Akhir</strong> : Penerapan Latent Dirichlet Allocation & Naïve Bayes untuk Rekomendasi Dosen Peneliti Telkom University Surabaya Berdasarkan Publikasi Terindeks Google Scholar. <br/><strong>Mata Kuliah Relevan</strong> : Data Mining, Pemrograman Web, Pemrograman Framework, Relasi Basis Data, Pengembangan UI/UX, Data Warehouse & Business Intelligence, dan Natural Language Processing.",
                             "province": "Surabaya",
                             "country": "Jawa Timur",
                             "institution": "Strata 1",
