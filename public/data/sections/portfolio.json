@@ -25,6 +25,28 @@
             },
             "items": [
                 {
+                    "id": 1,
+                    "img": "images/portfolio/bnsp.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "productivity",
+                    "locales": {
+                        "en": {
+                            "title": "Data Analytics: Data Analytics: Profitability & Sales Trend Analysis (BNSP Portfolio)",
+                            "description": "<b>This dashboard was developed as part of the graduation requirements for the BNSP (Badan Nasional Sertifikasi Profesi) Data Analyst Certification scheme</b>. The development process covered several competency units, including Identifying Data Management Needs for Business Processes, Collecting Data using Microsoft Excel, Reviewing Product Data, Validating Data through data cleansing and conditional formatting, Defining Data Objects using VLOOKUP and XLOOKUP techniques, Creating Business Intelligence using Power BI, and Preparing Analysis Results Reports. The analysis results were presented in an interactive dashboard that generated data-driven insights through four Key Performance Indicators (KPIs): Total Revenue, Total Quantity, Total Profit, and Profit Margin. The visualizations include a line chart for sales trends, a bar chart for Top 10 sales, and a donut chart for customer segmentation (Consumer, Corporate, and Home Office). Additionally, the dashboard features a detailed transaction table and a geographic heat map to analyze sales distribution. Slicers were implemented to filter data by sales year, branch, shipping provider, and product category. The final analysis was compiled into a PowerPoint presentation report.",
+                            "tags": ["Data Analyst","Google Spreadsheet", "looker studio", "Microsoft Power BI", "Microsoft Excel", "Python", "Vlookup/xlookup", "CSV"]
+                        },
+                        "in": {
+                            "description": "Dashboard ini dibuat sebagai bagian dari persyaratan kelulusan pelatihan dalam mengikuti Sertifikasi BNSP Skema Data Analyst. Proses pengerjaannya mencakup beberapa tahapan unit kompetensi, yaitu Identifikasi Kebutuhan Pengelolaan Data untuk Proses Bisnis, Pengumpulan Data menggunakan Microsoft Excel, Penelaahan Data Produk, Validasi Data melalui proses data cleansing dan conditional formatting, Penentuan Objek Data menggunakan teknik VLOOKUP dan XLOOKUP, Pembuatan Intelijen Bisnis menggunakan Power BI, serta Penyusunan Laporan Hasil Analisis. Hasil analisis divisualisasikan dalam bentuk dashboard interaktif yang menghasilkan insight Data Analyst melalui empat Key Performance Indicators (KPI), yaitu Total Omzet, Total Kuantitas, Total Profit, dan Profit Margin. Visualisasi yang digunakan meliputi line chart untuk tren penjualan, bar chart untuk Top 10 penjualan, serta donut chart untuk segmentasi pelanggan (Consumer, Corporate, dan Home Office). Selain itu, dashboard dilengkapi dengan tabel detail transaksi serta peta (heat map) untuk melihat persebaran penjualan secara geografis. Fitur slicer juga diterapkan untuk memfilter data berdasarkan tahun penjualan, cabang, ekspedisi, dan kategori produk. Seluruh hasil analisis kemudian disusun dalam bentuk laporan presentasi (PowerPoint).",
+                            "tags": ["Data Analyst","Google Spreadsheet", "looker studio", "Microsoft Power BI", "Microsoft Excel", "Python", "Vlookup/xlookup", "CSV"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-chart-line", "href": "https://app.powerbi.com/groups/me/reports/5a4dd2bc-b427-4a59-9d38-cb6f86093949/43b1e1cf63ad16aa3433?experience=power-bi", "stringKey": "Dashboard (Power BI)"},
+                        {"faIcon": "fa-solid fa-file-powerpoint", "href": "https://www.canva.com/design/DAHBRzSogb8/3FIMZLT8AiaTholVTL6OGw/edit?utm_content=DAHBRzSogb8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "stringKey": "Conference Power Point"}
+                    ]
+                },
+                {
                     "id": 2,
                     "img": "images/portfolio/siredo.jpeg",
                     "fallbackFaIcon": "",
@@ -50,7 +72,7 @@
                     ]
                 },
                 {
-                    "id": 1,
+                    "id": 3,
                     "img": "images/portfolio/sku.png",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -71,7 +93,7 @@
                     ]
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "img": "images/portfolio/skm.png",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -92,7 +114,7 @@
                     ]
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "img": "images/portfolio/s-mindu.jpg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -114,7 +136,7 @@
                     ]
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "img": "images/portfolio/coder.jpg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -135,7 +157,7 @@
                     ]
                 },
                 {
-                    "id": 6,
+                    "id": 7,
                     "img": "images/portfolio/cash-is.jpg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -157,7 +179,7 @@
                     ]
                 },
                 {
-                    "id": 7,
+                    "id": 8,
                     "img": "images/portfolio/sacral.jpg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
