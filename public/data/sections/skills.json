@@ -179,8 +179,8 @@
             "id": 2,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Software Skills"},
-                "in": {"title": "Keahlian Perangkat Lunak"}
+                "en": {"title": "Office Software Skills"},
+                "in": {"title": "Keahlian Perangkat Lunak Kantor"}
             },
             "settings": {
                 "order_items_by": "id",
@@ -241,43 +241,28 @@
                             "description": "Data Storytelling, Slide Master, Desain Infografis, Presentasi Eksekutif."
                         }
                     }
-                },
+                }
+
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Data Analytics Software Skills"},
+                "in": {"title": "Keahlian Perangkat Lunak Analisa Data"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
                 {
-                    "id": 4,
-                    "img": "images/icons/vscode.jpg",
-                    "fallbackFaIcon": null,
-                    "fallbackFaIconColor": null,
-                    "percentage": 95,
-                    "locales": {
-                        "en": {
-                            "title": "Visual Studio Code",
-                            "description": "Programming, Web Development, Mobile Development, Git Integration, Debugging, Code Refactoring."
-                        },
-                        "in": {
-                            "title": "Visual Studio Code",
-                            "description": "Programming, Pengembangan Web, Pengembangan Mobile, Integrasi Git, Debugging, Refaktorisasi Kode."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "img": "images/icons/github.png",
-                    "fallbackFaIcon": null,
-                    "fallbackFaIconColor": null,
-                    "percentage": 85,
-                    "locales": {
-                        "en": {
-                            "title": "Github",
-                            "description": "Version Control, Branching, Pull Requests, Continuous Integration/Deployment (CI/CD)."
-                        },
-                        "in": {
-                            "title": "Github",
-                            "description": "Kontrol Versi (Version Control), Branching, Pull Requests, Continuous Integration/Deployment (CI/CD)."
-                        }
-                    }
-                },
-                {
-                    "id": 6,
+                    "id": 1,
                     "img": "images/icons/colab.png",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
@@ -294,92 +279,7 @@
                     }
                 },
                 {
-                    "id": 7,
-                    "img": "images/icons/canva.png",
-                    "fallbackFaIcon": null,
-                    "fallbackFaIconColor": null,
-                    "percentage": 85,
-                    "locales": {
-                        "en": {
-                            "title": "Canva",
-                            "description": "Design Graphic, Executive Presentation, Poster Design."
-                        },
-                        "in": {
-                            "title": "Canva",
-                            "description": "Desain Grafis, Presentasi Eksekutif, Desain Poster."
-                        }
-                    }
-                },
-                {
-                    "id": 8,
-                    "img": "images/icons/figma.png",
-                    "fallbackFaIcon": null,
-                    "fallbackFaIconColor": null,
-                    "percentage": 80,
-                    "locales": {
-                        "en": {
-                            "title": "Figma",
-                            "description": "UI/UX Design, Prototyping, Wireframing, Auto Layout, Style Guides, Visual Communication."
-                        },
-                        "in": {
-                            "title": "Figma",
-                            "description": "Desain UI/UX, Prototyping, Wireframing, Auto Layout, Panduan Gaya (Style Guides), Komunikasi Visual."
-                        }
-                    }
-                },
-                {
-                    "id": 9,
-                    "img": "images/icons/miro.png",
-                    "fallbackFaIcon": null,
-                    "fallbackFaIconColor": null,
-                    "percentage": 60,
-                    "locales": {
-                        "en": {
-                            "title": "Miro",
-                            "description": "Flowcharting, System Architecture, UML Diagram, Business Process Modeling, Mind Mapping."
-                        },
-                        "in": {
-                            "title": "Miro",
-                            "description": "Pembuatan Flowchart, Arsitektur Sistem, Diagram UML, Pemodelan Proses Bisnis, Mind Mapping."
-                        }
-                    }
-                },
-                {
-                    "id": 10,
-                    "img": "images/icons/draw.io.png",
-                    "fallbackFaIcon": null,
-                    "fallbackFaIconColor": null,
-                    "percentage": 90,
-                    "locales": {
-                        "en": {
-                            "title": "Draw.io",
-                            "description": "Flowcharting, System Architecture, UML Diagram, Business Process Modeling, Mind Mapping."
-                        },
-                        "in": {
-                            "title": "Draw.io",
-                            "description": "Pembuatan Flowchart, Arsitektur Sistem, Diagram UML, Pemodelan Proses Bisnis, Mind Mapping."
-                        }
-                    }
-                },
-                {
-                    "id": 11,
-                    "img": "images/icons/powerBI.png",
-                    "fallbackFaIcon": null,
-                    "fallbackFaIconColor": null,
-                    "percentage": 90,
-                    "locales": {
-                        "en": {
-                            "title": "Microsoft Power BI",
-                            "description": "Data Visualization, Data Modeling, DAX Formula, Interactive Dashboarding, ETL Processes, Data Integration."
-                        },
-                        "in": {
-                            "title": "Microsoft Power BI",
-                            "description": "Visualisasi Data, Pemodelan Data (Data Modeling), Formula DAX, Pembuatan Dashboard Interaktif, Proses ETL, Integrasi Data."
-                        }
-                    }
-                },
-                {
-                    "id": 12,
+                    "id": 2,
                     "img": "images/icons/looker.png",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
@@ -396,7 +296,24 @@
                     }
                 },
                 {
-                    "id": 13,
+                    "id": 3,
+                    "img": "images/icons/powerBI.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Microsoft Power BI",
+                            "description": "Data Visualization, Data Modeling, DAX Formula, Interactive Dashboarding, ETL Processes, Data Integration."
+                        },
+                        "in": {
+                            "title": "Microsoft Power BI",
+                            "description": "Visualisasi Data, Pemodelan Data (Data Modeling), Formula DAX, Pembuatan Dashboard Interaktif, Proses ETL, Integrasi Data."
+                        }
+                    }
+                },
+                                {
+                    "id": 4,
                     "img": "images/icons/tableau.png",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
@@ -413,7 +330,59 @@
                     }
                 },
                 {
-                    "id": 14,
+                    "id": 5,
+                    "img": "images/icons/analystics.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Google Analytics",
+                            "description": "Web Analytics, Event Tracking, Conversion Funnel Analysis, Traffic Source Analysis, Audience Segmentation."
+                        },
+                        "in": {
+                            "title": "Google Analytics",
+                            "description": "Analisis Web, Pelacakan Event, Analisis Funnel Konversi, Analisis Sumber Traffic, Segmentasi Audiens."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Programming & Development Software Skills"},
+                "in": {"title": "Keahlian Perangkat Lunak Pemrograman & Pengembangan"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/icons/vscode.jpg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Visual Studio Code",
+                            "description": "Programming, Web Development, Mobile Development, Git Integration, Debugging, Code Refactoring."
+                        },
+                        "in": {
+                            "title": "Visual Studio Code",
+                            "description": "Programming, Pengembangan Web, Pengembangan Mobile, Integrasi Git, Debugging, Refaktorisasi Kode."
+                        }
+                    }
+                },
+                                {
+                    "id": 2,
                     "img": "images/icons/laragon.svg",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
@@ -430,7 +399,128 @@
                     }
                 },
                 {
-                    "id": 15,
+                    "id": 3,
+                    "img": "images/icons/github.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Github",
+                            "description": "Version Control, Branching, Pull Requests, Continuous Integration/Deployment (CI/CD)."
+                        },
+                        "in": {
+                            "title": "Github",
+                            "description": "Kontrol Versi (Version Control), Branching, Pull Requests, Continuous Integration/Deployment (CI/CD)."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Design Software Skills"},
+                "in": {"title": "Keahlian Perangkat Lunak Desain"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/icons/canva.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Canva",
+                            "description": "Design Graphic, Executive Presentation, Poster Design."
+                        },
+                        "in": {
+                            "title": "Canva",
+                            "description": "Desain Grafis, Presentasi Eksekutif, Desain Poster."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/icons/figma.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Figma",
+                            "description": "UI/UX Design, Prototyping, Wireframing, Auto Layout, Style Guides, Visual Communication."
+                        },
+                        "in": {
+                            "title": "Figma",
+                            "description": "Desain UI/UX, Prototyping, Wireframing, Auto Layout, Panduan Gaya (Style Guides), Komunikasi Visual."
+                        }
+                    }
+                },
+                                {
+                    "id": 3,
+                    "img": "images/icons/draw.io.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Draw.io",
+                            "description": "Flowcharting, System Architecture, UML Diagram, Business Process Modeling, Mind Mapping."
+                        },
+                        "in": {
+                            "title": "Draw.io",
+                            "description": "Pembuatan Flowchart, Arsitektur Sistem, Diagram UML, Pemodelan Proses Bisnis, Mind Mapping."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/icons/miro.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Miro",
+                            "description": "Flowcharting, System Architecture, UML Diagram, Business Process Modeling, Mind Mapping."
+                        },
+                        "in": {
+                            "title": "Miro",
+                            "description": "Pembuatan Flowchart, Arsitektur Sistem, Diagram UML, Pemodelan Proses Bisnis, Mind Mapping."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Project Software Skills"},
+                "in": {"title": "Keahlian Perangkat Lunak Proyek"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
                     "img": "images/icons/trello.png",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
@@ -447,7 +537,7 @@
                     }
                 },
                 {
-                    "id": 16,
+                    "id": 12,
                     "img": "images/icons/notion.webp",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
@@ -466,7 +556,67 @@
             ]
         },
         {
-            "id": 3,
+            "id": 6,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Enterprise Software Skills"},
+                "in": {"title": "Keahlian Perangkat Lunak Enterprise"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/icons/sap.jpg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "SAP",
+                            "description": "Enterprise Resource Planning (ERP), Financial Management, Inventory Management, Procurement, Business Process Integration."
+                        },
+                        "in": {
+                            "title": "SAP",
+                            "description": "Enterprise Resource Planning (ERP), Manajemen Keuangan, Manajemen Persediaan, Pengadaan (Procurement), Integrasi Proses Bisnis."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/icons/odoo.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Odoo",
+                            "description": "ERP System Configuration, Accounting Management, Inventory & Sales Management, Business Process Automation, Module Customization."
+                        },
+                        "in": {
+                            "title": "Odoo",
+                            "description": "Konfigurasi Sistem ERP, Manajemen Akuntansi, Manajemen Persediaan & Penjualan, Otomatisasi Proses Bisnis, Kustomisasi Modul."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "*Programming* Skills"},
+                "in": {"title": "*Keahlian* Pemrograman"}
+            }
+        },
+        {
+            "id": 8,
             "component": "ArticleSkills",
             "locales": {
                 "en": {"title": "Frontend Stack"},
@@ -569,6 +719,23 @@
                 {
                     "id": 6,
                     "img": null,
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": null,
+                    "percentage": 65,
+                    "locales": {
+                        "en": {
+                            "title": "Dart",
+                            "description": "Capable of developing and maintaining scalable applications using Dart."
+                        },
+                        "in": {
+                            "title": "Dart",
+                            "description": "Mampu mengembangkan dan memelihara aplikasi yang scalable menggunakan Dart."
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
                     "fallbackFaIcon": "fa-brands fa-vuejs",
                     "fallbackFaIconColor": null,
                     "percentage": 60,
@@ -586,7 +753,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 9,
             "component": "ArticleSkills",
             "locales": {
                 "en": {"title": "Backend Stack"},
@@ -689,7 +856,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 10,
             "component": "ArticleSkills",
             "locales": {
                 "en": {"title": "Languages"},
