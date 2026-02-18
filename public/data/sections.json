@@ -43,6 +43,27 @@
             }
         },
         {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "My *Portfolio*",
+                    "title_short": null,
+                    "description": "Welcome to My Portfolio. This is the main section of the website, where my portfolio is divided into three categories: Data Spesialist, Software Development, and Project Competitions.",
+                    "nav_label": "Portfolio"
+                },
+                "in": {
+                    "title": "*Portofolio* Saya",
+                    "title_short": null,
+                    "description": "Selamat Datang di Portfolio Saya. Ini merupakan bagian utama dari website, portofolio saya dibagi menjadi 3 bagian: Spesialis Data, Software Development, dan Kompetisi Proyek.",
+                    "nav_label": "Portofolio"
+                }
+            }
+        },
+        {
             "id": "skills",
             "categoryId": "showcase",
             "jsonPath": "/sections/skills.json",
@@ -81,27 +102,6 @@
                     "title_short": null,
                     "description": null,
                     "nav_label": "Pengalaman"
-                }
-            }
-        },
-        {
-            "id": "portfolio",
-            "categoryId": "showcase",
-            "jsonPath": "/sections/portfolio.json",
-            "faIcon": "fa-solid fa-folder-open",
-            "type": "column",
-            "locales": {
-                "en": {
-                    "title": "My *Portfolio*",
-                    "title_short": null,
-                    "description": "Welcome to My Portfolio. This is the main section of the website, where my portfolio is divided into three categories: Data Spesialist, Software Development, and Project Competitions.",
-                    "nav_label": "Portfolio"
-                },
-                "in": {
-                    "title": "*Portofolio* Saya",
-                    "title_short": null,
-                    "description": "Selamat Datang di Portfolio Saya. Ini merupakan bagian utama dari website, portofolio saya dibagi menjadi 3 bagian: Spesialis Data, Software Development, dan Kompetisi Proyek.",
-                    "nav_label": "Portofolio"
                 }
             }
         },
