@@ -179,6 +179,14 @@
             "id": 2,
             "component": "ArticleSkills",
             "locales": {
+                "en": {"title": "*Software Skills*"},
+                "in": {"title": "*Keahlian Perangkat Lunak*"}
+            }
+        },
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
                 "en": {"title": "Office Software Skills"},
                 "in": {"title": "Keahlian Perangkat Lunak Kantor"}
             },
@@ -611,8 +619,8 @@
             "id": 7,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "*Programming* Skills"},
-                "in": {"title": "*Keahlian* Pemrograman"}
+                "en": {"title": "*Programming Skills*"},
+                "in": {"title": "*Keahlian Pemrograman*"}
             }
         },
         {
@@ -859,8 +867,8 @@
             "id": 10,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Languages"},
-                "in": {"title": "Bahasa"}
+                "en": {"title": "*Languages*"},
+                "in": {"title": "*Bahasa*"}
             },
             "settings": {
                 "order_items_by": "id",
