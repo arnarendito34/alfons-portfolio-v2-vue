@@ -237,6 +237,27 @@
                     "links": [
                         {"href": "https://drive.google.com/file/d/1G5eS0MBOx7Ox-96UkX38C30SkpL2a8tt/view?usp=sharing", "stringKey": "view_certification"}
                     ]
+                },
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2026, "month": 1},
+                    "fallbackFaIcon": "fa-solid fa-laptop",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Short Course of Data Analyst for BNSP Data Analyst Certification",
+                            "description": "The training is designed to fulfill certification requirements, covering both theoretical discussions and practical implementation of several competency units required in the competency assessment, including Identifying Data Management Needs for Business Processes, Collecting Data, Reviewing Product Data, Validating Data, Defining Data Objects, Creating Business Intelligence, and Preparing Analysis Results Reports.",
+                            "institution": "LKP Syntaxnesia"
+                        },
+                        "in": {
+                            "title": "Pelatihan Data Analyst untuk Sertifikasi BNSP",
+                            "description": "Pelatihan digunakan untuk memenuhi kebutuhan sertifikasi yang mencakup pembahasan dan praktik sejumlah unit kompetensi yang diperlukan dalam uji kompetensi, antara lain Identifikasi Kebutuhan Pengelolaan Data untuk Proses Bisnis, Mengumpulkan Data, Menelaahan Data Produk, Validasi Data, Menentukan Objek Data, Pembuatan Intelijen Bisnis, serta Penyusunan Laporan Hasil Analisis.",
+                            "institution": "LKP Syntaxnesia"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/1sxhx0joXf3I88i84MeMN7Dw31dnCZ76E/view", "stringKey": "view_certification"}
+                    ]
                 }
             ]
         }
