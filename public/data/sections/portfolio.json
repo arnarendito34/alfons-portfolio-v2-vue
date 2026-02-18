@@ -32,7 +32,7 @@
                     "category": "productivity",
                     "locales": {
                         "en": {
-                            "title": "Data Analytics: Data Analytics: Profitability & Sales Trend Analysis (BNSP Portfolio)",
+                            "title": "Data Analytics: Profitability & Sales Trend Analysis (BNSP Portfolio)",
                             "description": "<b>This dashboard was developed as part of the graduation requirements for the BNSP (Badan Nasional Sertifikasi Profesi) Data Analyst Certification scheme</b>. The development process covered several competency units, including Identifying Data Management Needs for Business Processes, Collecting Data using Microsoft Excel, Reviewing Product Data, Validating Data through data cleansing and conditional formatting, Defining Data Objects using VLOOKUP and XLOOKUP techniques, Creating Business Intelligence using Power BI, and Preparing Analysis Results Reports. The analysis results were presented in an interactive dashboard that generated data-driven insights through four Key Performance Indicators (KPIs): Total Revenue, Total Quantity, Total Profit, and Profit Margin. The visualizations include a line chart for sales trends, a bar chart for Top 10 sales, and a donut chart for customer segmentation (Consumer, Corporate, and Home Office). Additionally, the dashboard features a detailed transaction table and a geographic heat map to analyze sales distribution. Slicers were implemented to filter data by sales year, branch, shipping provider, and product category. The final analysis was compiled into a PowerPoint presentation report.",
                             "tags": ["Data Analyst","Google Spreadsheet", "looker studio", "Microsoft Power BI", "Microsoft Excel", "Python", "Vlookup/xlookup", "CSV"]
                         },
@@ -43,11 +43,11 @@
                     },
                     "links": [
                         {"faIcon": "fa-solid fa-chart-line", "href": "https://app.powerbi.com/groups/me/reports/5a4dd2bc-b427-4a59-9d38-cb6f86093949/43b1e1cf63ad16aa3433?experience=power-bi", "stringKey": "Dashboard (Power BI)"},
-                        {"faIcon": "fa-solid fa-file-powerpoint", "href": "https://www.canva.com/design/DAHBRzSogb8/3FIMZLT8AiaTholVTL6OGw/edit?utm_content=DAHBRzSogb8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "stringKey": "Conference Power Point"}
+                        {"faIcon": "fa-solid fa-file-powerpoint", "href": "https://www.canva.com/design/DAHBRzSogb8/3FIMZLT8AiaTholVTL6OGw/edit?utm_content=DAHBRzSogb8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "stringKey": "Data Analyst Power Point"}
                     ]
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "img": "images/portfolio/siredo.jpeg",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
@@ -72,7 +72,7 @@
                     ]
                 },
                 {
-                    "id": 3,
+                    "id": 2,
                     "img": "images/portfolio/sku.png",
                     "fallbackFaIcon": "",
                     "fallbackFaIconColor": null,
