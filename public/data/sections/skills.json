@@ -162,12 +162,12 @@
                     "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "Adaptability",
+                            "title": "Adaptability/Agile Condition",
                             "description": null,
                             "level": null
                         },
                         "in": {
-                            "title": "Adaptif",
+                            "title": "Adaptif/Agile",
                             "description": null,
                             "level": null
                         }
