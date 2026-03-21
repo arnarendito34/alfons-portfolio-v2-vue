@@ -258,6 +258,27 @@
                     "links": [
                         {"href": "https://drive.google.com/file/d/1sxhx0joXf3I88i84MeMN7Dw31dnCZ76E/view", "stringKey": "view_certification"}
                     ]
+                },
+                {
+                    "id": 5,
+                    "dateStart": {"year": 2026, "month": 1},
+                    "fallbackFaIcon": "fa-solid fa-laptop",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Badan Nasional Sertifikasi Profesi - Data Analyst",
+                            "description": "aking the BNSP Competency Test for the Data Analyst Scheme, including Identifying Data Management Needs for Business Processes, Collecting Data, Reviewing Product Data, Validating Data, Defining Data Objects, Creating Business Intelligence, and Preparing Analysis Results Reports.",
+                            "institution": "LSP DITEKINDO"
+                        },
+                        "in": {
+                            "title": "Badan Nasional Sertifikasi Profesi - Data Analyst",
+                            "description": "Mengikuti uji kompetensi BNSP Skema Data Analyst, antara lain Identifikasi Kebutuhan Pengelolaan Data untuk Proses Bisnis, Mengumpulkan Data, Menelaahan Data Produk, Validasi Data, Menentukan Objek Data, Pembuatan Intelijen Bisnis, serta Penyusunan Laporan Hasil Analisis.",
+                            "institution": "LSP DITEKINDO"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://drive.google.com/file/d/10pZY91xAWPLc8TzvR7H_LuMccbrSMOFi/view?usp=sharing", "stringKey": "view_certification"}
+                    ]
                 }
             ]
         }
