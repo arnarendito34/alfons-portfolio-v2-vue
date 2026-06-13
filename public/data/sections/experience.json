@@ -269,7 +269,7 @@
                     "id": 7,
                     "dateStart": {"year": 2026, "month": 2 },
                     "dateEnd": {"year": 2026, "month": 5},
-                    "img": "images/places/idx.png",
+                    "img": "images/places/idx.jpg",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
                     "locales": {
