@@ -10,6 +10,7 @@
 <script setup>
 import ArticleContactForm from "/src/vue/components/articles/contact/ArticleContactForm.vue"
 import ArticleContactOptions from "/src/vue/components/articles/contact/ArticleContactOptions.vue"
+import ArticleGallery from "/src/vue/components/articles/gallery/ArticleGallery.vue"
 import ArticlePortfolio from "/src/vue/components/articles/portfolio/ArticlePortfolio.vue"
 import ArticleProfile from "/src/vue/components/articles/profile/ArticleProfile.vue"
 import ArticleSkills from "/src/vue/components/articles/skills/ArticleSkills.vue"
@@ -29,6 +30,7 @@ const props = defineProps({
 const ARTICLES_MAP = {
     ArticleContactForm,
     ArticleContactOptions,
+    ArticleGallery,
     ArticlePortfolio,
     ArticleProfile,
     ArticleSkills,

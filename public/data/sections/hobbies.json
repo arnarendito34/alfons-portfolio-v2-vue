@@ -140,23 +140,217 @@
         },
         {
             "id": 2,
-            "component": "ArticleSkills",
+            "component": "ArticleGallery",
             "locales": {
                 "en": {
-                    "title": "Gallery (Coming Soon)"
+                    "title": "Gallery",
+                    "show_more": "Show More",
+                    "show_less": "Show Less"
                 },
                 "in": {
-                    "title": "Galeri (Akan Datang)"
+                    "title": "Galeri",
+                    "show_more": "Tampilkan Lebih Banyak",
+                    "show_less": "Tampilkan Lebih Sedikit"
                 }
             },
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "asc",
-                "max_items_per_line": 1,
-                "transparent_item_icon_background": false,
-                "small_icons": true,
-                "chart": null
-            }
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/galery/bts.jpeg",
+                    "dateStart": {"year": 2025, "month": 11, "day": 18},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "IEEE 2025 2nd Beyond Technology Summit on Informatics International Conference",
+                            "description": "Presented a Final Project research titled : Researcher Recommendation System Using Hybrid LDA-Based Topic Extraction and Naive Bayes Model at Muhammadiyah Jember University via Zoom Online"
+                        },
+                        "in": {
+                            "title": "IEEE 2025 2nd Beyond Technology Summit on Informatics International Conference",
+                            "description": "Mempresentasikan Penelitian Tugas Akhir dengan Judul : Researcher Recommendation System Using Hybrid LDA-Based Topic Extraction and Naive Bayes Model di Universitas Muhammadiyah Jember melalui Zoom Online"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/galery/wisuda.jpeg",
+                    "dateStart": {"year": 2025, "month": 9, "day": 25},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "2025 Graduation",
+                            "description": "Wisuda Telkom University (Kampus Kota Surabaya) 2025"
+                        },
+                        "in": {
+                            "title": "Wisuda 2025",
+                            "description": "2025 Telkom University (Surabaya Campus) Graduation"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/galery/pameran-ta.jpeg",
+                    "dateStart": {"year": 2025, "month": 8, "day": 25},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "Final Project Exhibition Telkom University",
+                            "description": "Participated in the Telkom University (Surabaya Campus) Final Project Exhibition at Ciputra World"
+                        },
+                        "in": {
+                            "title": "Pameran Tugas Akhir Telkom University",
+                            "description": "Berpartisipasi Pameran Tugas Akhir Telkom University (Kampus Kota Surabaya) di Ciputra World"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/galery/sidang.jpeg",
+                    "dateStart": {"year": 2025, "month": 6, "day": 23},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "Final Project Examination",
+                            "description": "Thesis defense session for the Bachelor of Information Systems program at Telkom University Surabaya"
+                        },
+                        "in": {
+                            "title": "Sidang Tugas Akhir",
+                            "description": "Sesi sidang skripsi program studi Sistem Informasi di Telkom University Surabaya"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "images/galery/hut27.jpeg",
+                    "dateStart": {"year": 2025, "month": 6, "day": 20},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "Villa Jinjing HUT OMK D St Bonaventura 27th",
+                            "description": "Served as a committee member for the OMK D St Bonaventura Recollection"
+                        },
+                        "in": {
+                            "title": "Villa Jinjing HUT OMK D St Bonaventura 27th",
+                            "description": "Berpartisipasi dalam kegiatan Rekoleksi HUT Orang Muda Katolik Wilayah D sebagai Panitia"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "images/galery/glorificon.jpeg",
+                    "dateStart": {"year": 2025, "month": 0, "day": 31},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "Glorificon 1st KMK St. Filegon Telkom University Surabaya",
+                            "description": "Served as a committee member for the Anniversary of KMK St. Filegon, Telkom University Surabaya"
+                        },
+                        "in": {
+                            "title": "Glorificon 1st KMK St. Filegon Telkom University Surabaya",
+                            "description": "Berpartisipasi dalam kegiatan HUT KMK St. Filegon Telkom University Surabaya sebagai Panitia"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "images/galery/sempro.jpeg",
+                    "dateStart": {"year": 2025, "month": 0, "day": 7},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "Celebrating our Final Project Proposal Examination with the Friend from IS 04-02",
+                            "description": "-"
+                        },
+                        "in": {
+                            "title": "Pasca Sidang Proposal Tugas Akhir bersama Teman-teman IS 04-02",
+                            "description": "-"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "images/galery/magang.jpeg",
+                    "dateStart": {"year": 2024, "month": 7, "day": 27},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "Final Intership Presentasion at BPSDMP Kominfo Surabaya",
+                            "description": "-"
+                        },
+                        "in": {
+                            "title": "Presentasi Final Magang di BPSDMP Kominfo Surabaya",
+                            "description": "-"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "images/galery/hut26.jpeg",
+                    "dateStart": {"year": 2024, "month": 7, "day": 9},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "The Greatest of Us HUT OMK D St Bonaventura 26th",
+                            "description": "Served as a Chairperson of the Committee for the OMK D St Bonaventura Musical Drama"
+                        },
+                        "in": {
+                            "title": "The Greatest of Us HUT OMK D St Bonaventura 26th",
+                            "description": "Berpartisipasi dalam kegiatan Drama Musikal HUT Orang Muda Katolik Wilayah D sebagai Ketua Panitia"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "images/galery/retret.jpeg",
+                    "dateStart": {"year": 2024, "month": 3, "day": 14},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "Retret BPH KMK Se-Keuskupan Surabaya",
+                            "description": "-"
+                        },
+                        "in": {
+                            "title": "Retret BPH KMK Se-Keuskupan Surabaya",
+                            "description": "-"
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "img": "images/galery/pamera.jpeg",
+                    "dateStart": {"year": 2024, "month": 0, "day": 8},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "Project Management Course Exhibition",
+                            "description": "Participated in the Mind-U Application Project Exhibition, organized by the Information Systems Study Program as part of the Project Management course"
+                        },
+                        "in": {
+                            "title": "Pameran Mata Kuliah Manajemen Project",
+                            "description": "Berpartisipasi Pameran Project Aplikasi Mind-U dari Mata Kuliah Manajemen Projek yang diselenggarakan oleh Prodi Sistem Informasi"
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "img": "images/galery/sertijab.jpeg",
+                    "dateStart": {"year": 2023, "month": 11, "day": 20},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "en": {
+                            "title": "ECTS Telkom University Surabaya Handover of Chairman",
+                            "description": "-"
+                        },
+                        "in": {
+                            "title": "Serah Terima Jabatan Ketua ECTS Universitas Telkom Surabaya 2024",
+                            "description": "-"
+                        }
+                    }
+                }
+            ]
         }
     ]
 }
