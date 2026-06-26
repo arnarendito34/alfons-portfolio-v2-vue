@@ -1,0 +1,43 @@
+{
+                    "id": 7,
+                    "dateStart": {"year": 2026, "month": 2 },
+                    "dateEnd": {"year": 2026, "month": 5},
+                    "img": "images/places/idx.jpg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "PT. Amartha Manunggal Prima",
+                            "description": "<strong>QC Data Analyst</strong>",
+                            "list": {
+                                "title": "Key Responsibilities:",
+                                "items": [
+                                    "Prepared and monitored package volume reports across branch offices in Central Java, Yogyakarta Special Region, East Java, and Bali to support operational decision-making.",
+                                    "Conducted branch controlling activities to ensure compliance with Standard Operating Procedures (SOP) and monitored outstanding packages.",
+                                    "Developed monitoring templates using Microsoft Excel and Python (Jupyter Lab) to improve the efficiency of operational data analysis.",
+                                    "Built data processing automation and integration within Google Spreadsheets using Google Apps Script to streamline data entry and management processes."
+                                ]
+                            },
+                            "province": "Surabaya",
+                            "country": "East Java",
+                            "institution": "Professional Career",
+                            "tags": ["python","excel","google spreadsheet","apps script","jupyter notebook"]
+                        },
+                        "in": {
+                            "title": "PT. Amartha Manunggal Prima",
+                            "description": "<strong>QC Data Analyst</strong>",
+                            "list": {
+                                "title": "Tanggung Jawab Utama",
+                                "items": [
+                                    "Menyusun dan memonitor laporan jumlah paket per cabang di wilayah Jawa Tengah, DI Yogyakarta, Jawa Timur, dan Bali untuk mendukung pengambilan keputusan operasional.",
+                                    "Melakukan controlling terhadap cabang terkait kepatuhan terhadap Standar Operasional Prosedur (SOP) serta monitoring sisa paket (outstanding package).", 
+                                    "Mengembangkan template monitoring berbasis Microsoft Excel dan Python (Jupyter Lab) guna meningkatkan efisiensi analisis data operasional.",
+                                    "Membangun automasi pengolahan dan integrasi data pada Google Spreadsheet menggunakan Google Apps Script untuk mempercepat proses input dan pengelolaan data." 
+                                ]
+                            },
+                            "province": "Surabaya",
+                            "country": "Jawa Timur",
+                            "institution": "Karir Professional",
+                            "tags": ["python","excel","google spreadsheet","apps script","jupyter notebook"]}
+                    }
+                }
