@@ -268,7 +268,7 @@
                 {
                     "id": 7,
                     "dateStart": {"year": 2026, "month": 2 },
-                    "dateEnd": {"year": 2026, "month": 5},
+                    "dateEnd": {"year": 2026, "month": 6},
                     "img": "images/places/idx.jpg",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
@@ -306,6 +306,49 @@
                             "country": "Jawa Timur",
                             "institution": "Karir Professional",
                             "tags": ["python","excel","google spreadsheet","apps script","jupyter notebook"]}
+                    }
+                },
+                {
+                    "id": 8,
+                    "dateStart": {"year": 2026, "month": 7 },
+                    "dateEnd": {"year": 2026, "month": 9},
+                    "img": "images/places/alfa.jpg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "PT. Sumber Alfaria Trijaya, Tbk",
+                            "description": "<strong>Location Data Analyst Intern</strong>",
+                            "list": {
+                                "title": "Key Responsibilities:",
+                                "items": [
+                                    "Developed and maintained interactive dashboards for Building & Maintenance, Location & Development, and Disaster Risk Mapping using Looker Studio and Google Apps Script.",
+                                    "Processed and analyzed geospatial data to classify disaster risk levels and support location-based decision-making using QGIS and GeoTIFF.",
+                                    "Developed Python-based automation for web scraping, data cleaning, data validation, and competitor location data collection (latitude & longitude) to support geospatial analysis.",
+                                    "Designed dashboard user interfaces (UI/UX), integrated multiple data sources, and created informative KPI visualizations to improve monitoring efficiency and reporting using Looker Studio and Figma."
+                                ]
+                            },
+                            "province": "Tangerang",
+                            "country": "Banten",
+                            "institution": "Fresh Graduate Intern",
+                            "tags": ["QGIS", "Geospatial Information System", "Google Earth", "Google Maps", "python","excel","google spreadsheet","apps script","jupyter notebook"]
+                        },
+                        "in": {
+                            "title": "PT. Sumber Alfaria Trijaya, Tbk",
+                            "description": "<strong>Location Data Analyst Intern</strong>",
+                            "list": {
+                                "title": "Tanggung Jawab Utama",
+                                "items": [
+                                    "Mengembangkan dan memelihara dashboard interaktif untuk monitoring Building & Maintenance, Location & Development, serta dashboard Pemetaan Risiko Bencana menggunakan Looker Studio dan Google Apps Script.",
+                                    "Melakukan pengolahan dan analisis data spasial untuk klasifikasi tingkat risiko bencana serta mendukung pengambilan keputusan berbasis lokasi dengan menggunakan QGIS dan GeoTIFF.", 
+                                    "Mengembangkan otomasi menggunakan Python untuk web scraping, data cleaning, validasi data, serta pengumpulan koordinat lokasi (latitude & longitude) kompetitor guna mendukung analisis spasial.",
+                                    "Merancang antarmuka (UI/UX) dashboard, mengintegrasikan berbagai sumber data, serta menyusun visualisasi KPI yang informatif untuk meningkatkan efektivitas monitoring dan pelaporan menggunakan Looker Studio dan Figma." 
+                                ]
+                            },
+                            "province": "Tangerang",
+                            "country": "Banten",
+                            "institution": "Magang Fresh Graduate",
+                            "tags": ["QGIS","Sistem Informasi Geografis","Google Earth","Google Maps","python","excel","google spreadsheet","apps script","jupyter notebook"]}
                     }
                 }
             ]
