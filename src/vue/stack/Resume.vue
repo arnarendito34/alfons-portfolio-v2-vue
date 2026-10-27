@@ -6,6 +6,8 @@
                      :model="section"
                      :active="_isSectionActive(section)"/>
         </NavigationWrapper>
+
+        <ScrollAnimationManager/>
     </div>
 </template>
 
@@ -13,6 +15,7 @@
 import {inject, onMounted} from "vue"
 import Section from "/src/vue/components/sections/Section.vue"
 import NavigationWrapper from "/src/vue/components/navigation/NavigationWrapper.vue"
+import ScrollAnimationManager from "/src/vue/stack/ScrollAnimationManager.vue"
 import {useUtils} from "/src/composables/utils.js"
 
 const utils = useUtils()

@@ -6,14 +6,17 @@
             <div v-if="chartType" class="chart-wrapper">
                 <!-- Chart Type: Pie -->
                 <ArticleSkillsPieChart v-if="chartType === 'pie'"
+                                       v-scroll-reveal="{delay: 60}"
                                        :model="props.model"/>
             </div>
 
             <!-- Items -->
             <div class="items-row-wrapper" :class="chartType ? `items-row-wrapper-with-chart` : ``">
                 <div class="row" :class="`${gutterClass}`">
-                    <ArticleSkillsItem v-for="item in props.model.items"
+                    <ArticleSkillsItem v-for="(item, index) in props.model.items"
+                                       :key="item.id"
                                        :item="item"
+                                       :index="index"
                                        :col-class="chartType ? colClassWithChart : colClass"
                                        :max-items-per-line="Number(maxItemsPerLine)"
                                        :transparent-icon="props.model.getSetting('transparent_item_icon_background', false)"

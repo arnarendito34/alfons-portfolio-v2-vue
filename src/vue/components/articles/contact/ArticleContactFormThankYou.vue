@@ -1,20 +1,25 @@
 <template>
     <div class="contact-form-thank-you">
-        <IconView fa-icon="fa-solid fa-envelope-circle-check"
+        <IconView v-scroll-reveal
+                  fa-icon="fa-solid fa-envelope-circle-check"
                   class="icon-view"/>
 
-        <h3 class="fw-bold text-uppercase m-0 mt-3 mt-lg-4"
+        <h3 v-scroll-reveal="{delay: 60}"
+            class="fw-bold text-uppercase m-0 mt-3 mt-lg-4"
             v-html="title"/>
 
-        <p class="text-4 m-0 mt-3"
-           v-html="description"/>
+        <ScrollRevealText tag="p"
+                          class="text-4 m-0 mt-3"
+                          :content="description"/>
 
-        <SolidDivider class="mt-3"/>
+        <SolidDivider v-scroll-reveal="{delay: 100}" class="mt-3"/>
 
-        <p class="text-4 m-0 mt-3 text-light-6"
-           v-html="info"/>
+        <ScrollRevealText tag="p"
+                          class="text-4 m-0 mt-3 text-light-6"
+                          :content="info"/>
 
-        <button class="btn btn-primary btn-submit mt-3 mt-sm-4 text-4"
+        <button v-scroll-reveal="{delay: 160}"
+                class="btn btn-primary btn-submit mt-3 mt-sm-4 text-4"
                 @click="_onAnotherMessageButton">
             <i class="fa-solid fa-pen-to-square me-2"/>
             <span v-html="localizeFromStrings('send_another_message')"/>
@@ -25,6 +30,7 @@
 <script setup>
 import IconView from "/src/vue/components/widgets/IconView.vue"
 import SolidDivider from "/src/vue/components/widgets/SolidDivider.vue"
+import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
 import {inject} from "vue"
 
 const props = defineProps({

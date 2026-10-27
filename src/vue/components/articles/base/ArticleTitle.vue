@@ -1,6 +1,6 @@
 <template>
     <div class="article-header mb-4 mb-lg-4">
-        <h3 class="article-title">
+        <h3 class="article-title" v-scroll-reveal>
             <span v-html="title"/>
 
             <i v-if="faIcon"
@@ -10,12 +10,16 @@
 
         <div v-if="description"
              class="article-description">
-            <p class="eq-h6 mb-0 text-light-6" v-html="description"/>
+            <ScrollRevealText tag="p"
+                              class="eq-h6 mb-0 text-light-6"
+                              :content="description"/>
         </div>
     </div>
 </template>
 
 <script setup>
+import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
+
 const props = defineProps({
     title: String,
     description: String,

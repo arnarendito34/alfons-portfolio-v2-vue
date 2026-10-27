@@ -7,7 +7,8 @@
 
         <div class="contact-form-row mt-0 mt-xl-1">
             <!-- Left Column -->
-            <div class="contact-form-column contact-form-column-left">
+            <div v-scroll-reveal="{delay: 40}"
+                 class="contact-form-column contact-form-column-left">
                 <!-- Input Groups -->
                 <div v-for="(item) in [
                     {id: 'name', faIcon: 'fa-solid fa-signature', type: 'text'},
@@ -33,7 +34,8 @@
             </div>
 
             <!-- Right Column -->
-            <div class="contact-form-column contact-form-column-right">
+            <div v-scroll-reveal="{delay: 100}"
+                 class="contact-form-column contact-form-column-right">
                 <!-- Textarea -->
                 <div class="form-group form-group-textarea mb-md-0">
                     <textarea class="form-control"
@@ -49,7 +51,7 @@
         </div>
 
         <!-- Buttons -->
-        <div class="btn-submit-wrapper">
+        <div v-scroll-reveal="{delay: 160}" class="btn-submit-wrapper">
             <XLButton :label="localizeFromStrings('send_message')"
                       class="btn-submit"
                       type="submit"

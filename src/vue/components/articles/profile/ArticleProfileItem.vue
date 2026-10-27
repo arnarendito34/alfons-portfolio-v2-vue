@@ -1,10 +1,12 @@
 <template>
-    <p class="eq-h6"
-       v-html="localize(item.locales, 'description')"/>
+    <ScrollRevealText tag="p"
+                      class="eq-h6"
+                      :content="localize(item.locales, 'description')"/>
 </template>
 
 <script setup>
 import {inject} from "vue"
+import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
 
 const props = defineProps({
     item: {

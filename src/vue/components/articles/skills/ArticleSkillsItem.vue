@@ -1,5 +1,6 @@
 <template>
     <div class="skills-item"
+         v-scroll-reveal="{delay: Math.min((index || 0) * 50, 250)}"
          :class="colClass">
         <IconView class="skills-item-icon"
                   :class="`skills-item-icon${transparentIcon ? '-transparent' : ''}${smallIcon ? '-shrink' : ''}`"
@@ -32,6 +33,7 @@
 
             <!-- Progress Bar -->
             <div v-if="item.hasPercentage && progressBarAllowed"
+                 v-scroll-reveal="{delay: 90}"
                  class="skills-item-progress-display mt-1">
                 <div class="skills-item-progress-display-fill"
                      :style="`width:${item.percentage}%; background-color: ${item.fallbackFaIconColor}`"/>
@@ -47,13 +49,15 @@
 
             <!-- Description -->
             <div class="skills-item-description">
-                <p class="text-3 m-0"
-                   :class="experienceTimeDisplay || !progressBarAllowed ? `text-light-7` : ``"
-                   v-html="localize(item.locales, 'description', true)"/>
+                <ScrollRevealText tag="p"
+                                  class="text-3 m-0"
+                                  :class="experienceTimeDisplay || !progressBarAllowed ? `text-light-7` : ``"
+                                  :content="localize(item.locales, 'description', true)"/>
             </div>
 
             <!-- Links -->
             <ArticleWidgetLinkList  v-if="links && links.length"
+                                    v-scroll-reveal="{delay: 120}"
                                     class="mt-1 text-3"
                                     :links="links"/>
         </div>
@@ -65,6 +69,7 @@ import {computed, inject} from "vue"
 import {useUtils} from "/src/composables/utils.js"
 import IconView from "/src/vue/components/widgets/IconView.vue"
 import ArticleWidgetLinkList from "/src/vue/components/articles/base/ArticleWidgetLinkList.vue"
+import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
 
 const utils = useUtils()
 
@@ -75,6 +80,7 @@ const props = defineProps({
         required: true
     },
     colClass: String,
+    index: Number,
     transparentIcon: Boolean,
     smallIcon: Boolean,
     progressBarAllowed: Boolean

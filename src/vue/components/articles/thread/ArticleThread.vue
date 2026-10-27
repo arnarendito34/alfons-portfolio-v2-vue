@@ -3,8 +3,9 @@
              :model="model">
         <ul class="thread">
             <!-- Items -->
-            <ArticleThreadItem v-for="item in model.items"
-                               :item="item"/>
+            <ArticleThreadItem v-for="(item, index) in model.items"
+                               :item="item"
+                               :index="index"/>
 
             <!-- Trailing Item -->
             <ArticleThreadItem/>

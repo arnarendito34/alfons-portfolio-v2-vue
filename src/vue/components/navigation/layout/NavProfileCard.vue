@@ -1,10 +1,12 @@
 <template>
     <div class="nav-profile-card" :class="{'nav-profile-card-shrink': shrink}">
-        <ImageView :src="avatar"
-                   :alt="name"
-                   :resolve-path="true"
-                   class="nav-profile-card-image-view"
-                   image-class="rounded-circle"/>
+        <div class="nav-profile-card-avatar">
+            <ImageView :src="avatar"
+                       :alt="name"
+                       :resolve-path="true"
+                       class="nav-profile-card-image-view"
+                       image-class="rounded-circle"/>
+        </div>
 
         <h4 class="nav-profile-card-title"
             v-html="name"/>
@@ -55,6 +57,42 @@ div.nav-profile-card {
     }
 }
 
+div.nav-profile-card-avatar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    isolation: isolate;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: -8px;
+        z-index: -1;
+        border-radius: 50%;
+        background: conic-gradient(
+            from var(--nav-avatar-rgb-angle),
+            #ff004c, #ff8a00, #ffe600, #00ff66, #00c8ff, #4c00ff, #ff004c
+        );
+        filter: blur(14px);
+        opacity: 0.65;
+        animation:
+            nav-avatar-rgb-spin 4s linear infinite,
+            nav-avatar-rgb-pulse 3s ease-in-out infinite;
+
+        @include media-breakpoint-down(sm) {
+            inset: -5px;
+            filter: blur(9px);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            animation: none;
+        }
+    }
+}
+
 div.nav-profile-card-image-view {
     --max-height:clamp(130px, 22.5vh, 160px);
     --border-width:3px;
@@ -72,13 +110,48 @@ div.nav-profile-card-image-view {
     min-height: calc(var(--max-height)/2);
     width: var(--max-height);
     height: var(--max-height);
-    border: var(--border-width) solid $nav-avatar-border-color;
+    border: var(--border-width) solid transparent;
     padding: 4px;
     border-radius: 50%;
+    background:
+        linear-gradient($nav-background, $nav-background) padding-box,
+        conic-gradient(
+            from var(--nav-avatar-rgb-angle),
+            #ff004c, #ff8a00, #ffe600, #00ff66, #00c8ff, #4c00ff, #ff004c
+        ) border-box;
+    animation: nav-avatar-rgb-spin 4s linear infinite;
 
     overflow: hidden;
     user-select: none;
     pointer-events: none;
+
+    @media (prefers-reduced-motion: reduce) {
+        animation: none;
+    }
+}
+
+@property --nav-avatar-rgb-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes nav-avatar-rgb-spin {
+    to {
+        --nav-avatar-rgb-angle: 360deg;
+    }
+}
+
+@keyframes nav-avatar-rgb-pulse {
+    0%, 100% {
+        opacity: 0.55;
+        transform: scale(0.97);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: scale(1.05);
+    }
 }
 
 h4.nav-profile-card-title {

@@ -16,20 +16,25 @@
         </div>
 
         <div class="timeline-item-content-body">
-            <p class="text-4 text-default description m-0"
-               v-html="description"/>
+            <ScrollRevealText tag="p"
+                              class="text-4 text-default description m-0"
+                              :content="description"/>
 
-            <p v-if="list && list.title"
-               class="text-4 text-default list-title m-0 mt-2"
-               v-html="list.title"/>
+            <ScrollRevealText v-if="list && list.title"
+                              tag="p"
+                              class="text-4 text-default list-title m-0 mt-2"
+                              :content="list.title"/>
 
             <ul v-if="list && list.items && list.items.length"
                 class="text-4 list-items m-0 mt-2">
-                <li v-for="item in list.items"
-                    v-html="item"/>
+                <ScrollRevealText v-for="(item, index) in list.items"
+                                  :key="index"
+                                  tag="li"
+                                  :content="item"/>
             </ul>
 
-            <div class="tags-wrapper mt-2 pt-1 mt-md-3">
+            <div v-scroll-reveal="{delay: 120}"
+                 class="tags-wrapper mt-2 pt-1 mt-md-3">
                 <Tags v-if="parsedTags && parsedTags.length"
                       :tags="parsedTags"/>
             </div>
@@ -42,6 +47,7 @@ import {computed, inject} from "vue"
 import InlineInfoList from "/src/vue/components/widgets/InlineInfoList.vue"
 import InfoBadge from "/src/vue/components/widgets/InfoBadge.vue"
 import Tags from "/src/vue/components/widgets/Tags.vue"
+import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
 
 const props = defineProps({
     title: String,

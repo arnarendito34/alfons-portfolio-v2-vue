@@ -1,11 +1,13 @@
 <template>
     <section :id="model.htmlId"
              v-show="visible"
+             v-scroll-parallax="20"
              class="resume-section"
              :class="{
                 'resume-section-svh': utils.isIOS(),
                 'resume-section-with-divider': presentationMode === constants.PresentationModes.ALL_AT_ONCE,
-                'resume-section-cover': !model.isDefault
+                'resume-section-cover': !model.isDefault,
+                'resume-section-mobile-active': _isMobileActive
              }">
         <div class="resume-section-content">
             <SectionHeader v-if="model.isDefault || isMobileLayout"
@@ -18,8 +20,9 @@
 
 <script setup>
 import Section from "/src/models/Section.js"
-import {computed, inject} from "vue"
+import {computed, inject, nextTick, watch} from "vue"
 import {useConstants} from "/src/composables/constants.js"
+import {getScrollAnimationsEngine} from "/src/composables/scrollAnimations.js"
 import SectionHeader from "/src/vue/components/sections/SectionHeader.vue"
 import SectionBody from "/src/vue/components/sections/SectionBody.vue"
 import {useUtils} from "/src/composables/utils.js"
@@ -47,6 +50,16 @@ const visible = computed(() => {
     if(props.presentationMode === constants.PresentationModes.ALL_AT_ONCE)
         return true
     return props.active
+})
+
+const _isMobileActive = computed(() => {
+    return isMobileLayout.value &&
+        props.active &&
+        props.presentationMode === constants.PresentationModes.ONE_AT_ONCE
+})
+
+watch(visible, () => {
+    nextTick(() => getScrollAnimationsEngine().requestUpdate())
 })
 </script>
 

@@ -18,6 +18,10 @@
         <!-- Content Columns -->
         <div v-if="controls"
              class="content-column">
+            <div class="reading-progress" aria-hidden="true">
+                <span/>
+            </div>
+
             <NavMobileHeader/>
 
             <NavPillsController v-if="controls.pillsControllerOptions"

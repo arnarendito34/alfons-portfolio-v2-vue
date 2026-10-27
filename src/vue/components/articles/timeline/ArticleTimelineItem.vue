@@ -1,5 +1,6 @@
 <template>
     <li class="timeline-item"
+        v-scroll-reveal="{delay: Math.min((index || 0) * 60, 240)}"
         :class="!item ? `timeline-item-trailing` : ``">
         <IconView class="timeline-item-icon"
                   :img="item?.img"
@@ -31,7 +32,8 @@ const props = defineProps({
         /** @type {ArticleItem} **/
         type: Object,
         required: false
-    }
+    },
+    index: Number
 })
 
 /** @type {Function} */

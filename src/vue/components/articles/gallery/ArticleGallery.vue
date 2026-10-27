@@ -4,6 +4,7 @@
         <div class="gallery-grid">
             <div v-for="(item, index) in visibleItems"
                  :key="item.id"
+                 v-scroll-reveal="{delay: Math.min(index * 45, 320)}"
                  class="gallery-card"
                  @click="_openLightbox(index)">
                 <img v-if="item.img"
@@ -23,7 +24,7 @@
             </div>
         </div>
 
-        <div v-if="_hasMoreThanMax" class="gallery-show-more-wrapper">
+        <div v-if="_hasMoreThanMax" v-scroll-reveal class="gallery-show-more-wrapper">
             <button class="gallery-show-more" @click="_toggleShowAll">
                 <i :class="showAll ? 'fa-solid fa-chevron-up' : 'fa-solid fa-chevron-down'"/>
                 &nbsp;{{ showAll ? localizeText("show_less", "Show Less") : localizeText("show_more", "Show More") }}

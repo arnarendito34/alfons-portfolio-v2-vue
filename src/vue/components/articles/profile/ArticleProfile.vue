@@ -2,16 +2,19 @@
     <Article class="article-profile"
              :model="model">
         <h1 class="title display-1 mb-3"
+            v-scroll-reveal
             v-html="title"/>
 
-        <InlineLinkList :items="InlineLinkListLinks"/>
+        <InlineLinkList v-scroll-reveal="{delay: 70}"
+                        :items="InlineLinkListLinks"/>
 
         <div class="items-wrapper py-2 py-lg-3">
             <ArticleProfileItem v-for="item in model.items"
                                 :item="item"/>
         </div>
 
-        <SocialLinks :items="socialLinks"
+        <SocialLinks v-scroll-reveal="{delay: 120}"
+                     :items="socialLinks"
                      class="pt-lg-1"
                      size="3"
                      variant="dark"/>

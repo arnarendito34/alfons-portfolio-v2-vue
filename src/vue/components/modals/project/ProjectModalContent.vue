@@ -69,7 +69,7 @@ const blocks = computed(() => {
         {
             visibility: description,
             titleClass: "d-none d-lg-inline-block",
-            title: localizeFromStrings("about"),
+            title: "About",
             titleFaIcon: "fa-solid fa-file",
             description: description,
             links: null

@@ -3,8 +3,9 @@
              :model="model">
         <ul class="timeline">
             <!-- Items -->
-            <ArticleTimelineItem v-for="item in model.items"
-                                 :item="item"/>
+            <ArticleTimelineItem v-for="(item, index) in model.items"
+                                 :item="item"
+                                 :index="index"/>
 
             <!-- Trailing Item -->
             <ArticleTimelineItem/>

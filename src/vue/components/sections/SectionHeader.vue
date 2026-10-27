@@ -1,18 +1,23 @@
 <template>
     <div class="resume-section-header" :class="!description ? 'resume-section-header-no-description' : ''">
         <h1 class="title mb-1 mb-lg-2"
+            v-scroll-reveal
             v-html="title"/>
 
-        <SolidDivider class="mx-2 mt-2 mb-3"/>
+        <SolidDivider class="mx-2 mt-2 mb-3"
+                      v-scroll-reveal="{delay: 80}"/>
 
-        <p v-if="description"
-           class="eq-h6 mb-0 text-light-6" v-html="description"/>
+        <ScrollRevealText v-if="description"
+                          tag="p"
+                          class="eq-h6 mb-0 text-light-6"
+                          :content="description"/>
     </div>
 </template>
 
 <script setup>
 import {computed, inject} from "vue"
 import SolidDivider from "/src/vue/components/widgets/SolidDivider.vue"
+import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
 
 const props = defineProps({
     /** @type {Section} **/

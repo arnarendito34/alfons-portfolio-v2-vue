@@ -2,13 +2,16 @@
     <Article class="article-portfolio"
              :model="model">
         <div class="article-portfolio-content-wrapper">
-            <FilterTabs :categories="filterTabsCategories"
+            <FilterTabs v-scroll-reveal
+                        :categories="filterTabsCategories"
                         :selected-category-id="selectedCategoryId"
                         class="mt-lg-3"
                         @select="_onCategorySelected"/>
 
             <div class="items-grid">
                 <div v-for="(item, index) in filteredItems"
+                     :key="item.id"
+                     v-scroll-reveal="{delay: Math.min(index * 70, 280)}"
                      class="items-grid-item-wrapper">
                     <ArticlePortfolioItem  :item="item"
                                            :category-name="_getCategoryName(item.categoryId)"

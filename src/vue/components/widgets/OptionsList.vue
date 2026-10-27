@@ -1,6 +1,8 @@
 <template>
     <div class="row options-list-row gy-3 gy-lg-4">
-        <div v-for="item in props.items"
+        <div v-for="(item, index) in props.items"
+             :key="`${item.value}-${index}`"
+             v-scroll-reveal="{delay: Math.min(index * 60, 240)}"
              class="col-12 col-md-6 col-lg-12 col-xl-6">
             <div class="options-list-item">
                 <IconView class="options-list-icon-view"
@@ -8,17 +10,21 @@
                           :background-color="utils.getRootSCSSVariable('primary')"/>
 
                 <div class="option-list-info">
-                    <h5 class="mb-0 lead" v-html="item.label"/>
+                    <ScrollRevealText tag="h5"
+                                      class="mb-0 lead"
+                                      :content="item.label"/>
 
-                    <a v-if="item.href"
-                       :href="item.href"
-                       target="_blank"
-                       class="m-0 text-3 link-masked"
-                       v-html="item.value"/>
+                    <ScrollRevealText v-if="item.href"
+                                      tag="a"
+                                      :href="item.href"
+                                      target="_blank"
+                                      class="m-0 text-3 link-masked"
+                                      :content="item.value"/>
 
-                    <a v-else
-                       class="m-0 text-3 text-light-7"
-                       v-html="item.value"/>
+                    <ScrollRevealText v-else
+                                      tag="a"
+                                      class="m-0 text-3 text-light-7"
+                                      :content="item.value"/>
 
                     <CopyButton v-if="item.copy"
                                 class="ms-1"
@@ -33,6 +39,7 @@
 import {useUtils} from "/src/composables/utils.js"
 import IconView from "/src/vue/components/widgets/IconView.vue"
 import CopyButton from "/src/vue/components/widgets/CopyButton.vue"
+import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
 
 const utils = useUtils()
 

@@ -1,0 +1,157 @@
+/** ---------------- SCROLL-LINKED TEXT ---------------- **/
+.scroll-reveal-text {
+    --scroll-reveal-min-opacity: 0.35;
+}
+
+body.scroll-animations-ready .scroll-reveal-sentence {
+    opacity: clamp(
+        var(--scroll-reveal-min-opacity, 0.35),
+        calc((var(--scroll-reveal-progress, 0) * var(--sentence-scale, 1)) - var(--sentence-offset, 0)),
+        1
+    );
+    transition: opacity 0.14s linear;
+}
+
+/** ---------------- ONE-TIME UI REVEALS ---------------- **/
+body.scroll-animations-ready .scroll-reveal {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+    transition:
+        opacity 0.65s cubic-bezier(0.22, 0.68, 0.3, 1),
+        transform 0.65s cubic-bezier(0.22, 0.68, 0.3, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+}
+
+body.scroll-animations-ready .scroll-reveal-from-down {
+    transform: translate3d(0, -20px, 0);
+}
+
+body.scroll-animations-ready .scroll-reveal-from-left {
+    transform: translate3d(-26px, 0, 0);
+}
+
+body.scroll-animations-ready .scroll-reveal-from-right {
+    transform: translate3d(26px, 0, 0);
+}
+
+body.scroll-animations-ready .scroll-reveal-from-scale {
+    transform: scale(0.96);
+}
+
+body.scroll-animations-ready .scroll-reveal.is-scroll-revealed {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+body.scroll-animations-ready .scroll-reveal-from-scale.is-scroll-revealed {
+    transform: scale(1);
+}
+
+/** ---------------- READING PROGRESS ---------------- **/
+.reading-progress {
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    width: 100%;
+    height: 3px;
+    margin-bottom: -3px;
+    background-color: rgba($nav-background, 0.08);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    > span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        transform: scaleX(var(--reading-progress, 0));
+        transform-origin: left center;
+        background: linear-gradient(90deg, $primary, lighten($primary, 18%));
+        box-shadow: 0 0 10px rgba($primary, 0.45);
+    }
+}
+
+body.scroll-animations-ready .reading-progress,
+html.has-reading-progress .reading-progress {
+    opacity: 1;
+}
+
+/** ---------------- PARALLAX DECORATION ---------------- **/
+section.scroll-parallax {
+    position: relative;
+    isolation: isolate;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: -8% -8%;
+        z-index: 0;
+        pointer-events: none;
+        background:
+            radial-gradient(circle at 16% 22%, rgba($primary, 0.07), transparent 36%),
+            radial-gradient(circle at 84% 78%, rgba($nav-highlight, 0.1), transparent 42%);
+        transform: translate3d(0, var(--parallax-y, 0), 0) scale(1.04);
+        will-change: transform;
+    }
+
+    > .resume-section-content {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/** ---------------- MOBILE SECTION ENTRANCE ---------------- **/
+@keyframes scroll-section-enter {
+    from {
+        opacity: 0.45;
+        transform: translate3d(0, 18px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@include media-breakpoint-down($navigation-sidebar-breakpoint) {
+    body.scroll-animations-ready section.resume-section.resume-section-mobile-active {
+        animation: scroll-section-enter 0.55s cubic-bezier(0.22, 0.68, 0.3, 1);
+    }
+}
+
+/** ---------------- REDUCED MOTION ---------------- **/
+@media (prefers-reduced-motion: reduce) {
+    body.scroll-animations-ready .scroll-reveal-sentence {
+        opacity: 1 !important;
+        transition: none !important;
+    }
+
+    body.scroll-animations-ready .scroll-reveal,
+    body.scroll-animations-ready .scroll-reveal.is-scroll-revealed {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
+    section.scroll-parallax::before {
+        transform: none !important;
+    }
+
+    body.scroll-animations-ready section.resume-section.resume-section-mobile-active {
+        animation: none !important;
+    }
+}
+
+/** ---------------- PRINT ---------------- **/
+@media print {
+    body.scroll-animations-ready .scroll-reveal,
+    body.scroll-animations-ready .scroll-reveal.is-scroll-revealed,
+    body.scroll-animations-ready .scroll-reveal-sentence {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
+    .reading-progress {
+        display: none !important;
+    }
+}

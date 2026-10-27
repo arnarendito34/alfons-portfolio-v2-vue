@@ -1,5 +1,6 @@
 <template>
     <li class="thread-item"
+        v-scroll-reveal="{delay: Math.min((index || 0) * 60, 240)}"
         :class="!item ? `thread-item-trailing` : ``">
         <div class="thread-item-circle">
             <div class="thread-item-circle-fill"/>
@@ -27,10 +28,12 @@
                 </div>
             </div>
 
-            <p class="text-3 text-light-7 p-0 m-0"
-               v-html="localize(item.locales, 'description')"/>
+            <ScrollRevealText tag="p"
+                              class="text-3 text-light-7 p-0 m-0"
+                              :content="localize(item.locales, 'description')"/>
 
             <ArticleWidgetLinkList  v-if="links && links.length"
+                                    v-scroll-reveal="{delay: 100}"
                                     class="mt-2 text-3"
                                     :links="links"/>
         </div>
@@ -42,13 +45,15 @@ import {computed, inject} from "vue"
 import InfoBadge from "/src/vue/components/widgets/InfoBadge.vue"
 import InlineInfoList from "/src/vue/components/widgets/InlineInfoList.vue"
 import ArticleWidgetLinkList from "/src/vue/components/articles/base/ArticleWidgetLinkList.vue"
+import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
 
 const props = defineProps({
     item: {
         /** @type {ArticleItem} **/
         type: Object,
         required: false
-    }
+    },
+    index: Number
 })
 
 /** @type {Function} */
