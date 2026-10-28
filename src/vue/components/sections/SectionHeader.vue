@@ -1,16 +1,20 @@
 <template>
     <div class="resume-section-header" :class="!description ? 'resume-section-header-no-description' : ''">
         <h1 class="title mb-1 mb-lg-2"
-            v-scroll-reveal
+            v-scroll-reveal="{disabled: model.isCover}"
             v-html="title"/>
 
         <SolidDivider class="mx-2 mt-2 mb-3"
-                      v-scroll-reveal="{delay: 80}"/>
+                      v-scroll-reveal="{delay: 80, disabled: model.isCover}"/>
 
-        <ScrollRevealText v-if="description"
+        <ScrollRevealText v-if="description && !model.isCover"
                           tag="p"
                           class="eq-h6 mb-0 text-light-6"
                           :content="description"/>
+
+        <p v-else-if="description"
+           class="eq-h6 mb-0 text-light-6"
+           v-html="description"/>
     </div>
 </template>
 

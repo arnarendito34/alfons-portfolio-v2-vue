@@ -4,7 +4,7 @@ const REVEAL_DIRECTIONS = ["up", "down", "left", "right", "scale"]
 
 /**
  * @param {*} binding
- * @return {{delay: Number, direction: String}}
+ * @return {{delay: Number, direction: String, disabled: Boolean}}
  */
 const parseRevealBinding = (binding) => {
     const value = binding.value
@@ -17,7 +17,8 @@ const parseRevealBinding = (binding) => {
 
     return {
         delay: Number(objectValue.delay || (typeof value === "number" ? value : 0)) || 0,
-        direction: REVEAL_DIRECTIONS.includes(direction) ? direction : "up"
+        direction: REVEAL_DIRECTIONS.includes(direction) ? direction : "up",
+        disabled: Boolean(objectValue.disabled)
     }
 }
 
@@ -44,9 +45,23 @@ const applyRevealDelay = (element, delay) => {
         element.style.removeProperty("--reveal-delay")
 }
 
+const clearRevealStyles = (element) => {
+    for(const item of REVEAL_DIRECTIONS) {
+        element.classList.remove(`scroll-reveal-from-${item}`)
+    }
+
+    element.classList.remove("scroll-reveal")
+    element.style.removeProperty("--reveal-delay")
+    element._scrollRevealDirection = null
+}
+
 export const scrollReveal = {
     mounted(element, binding) {
         const settings = parseRevealBinding(binding)
+        element._scrollRevealDisabled = settings.disabled
+        if(settings.disabled)
+            return
+
         applyRevealStyles(element, settings.direction)
         applyRevealDelay(element, settings.delay)
         element._scrollRevealDirection = settings.direction
@@ -55,6 +70,25 @@ export const scrollReveal = {
 
     updated(element, binding) {
         const settings = parseRevealBinding(binding)
+
+        if(settings.disabled) {
+            if(!element._scrollRevealDisabled)
+                getScrollAnimationsEngine().unregisterReveal(element)
+
+            element._scrollRevealDisabled = true
+            clearRevealStyles(element)
+            return
+        }
+
+        if(element._scrollRevealDisabled) {
+            element._scrollRevealDisabled = false
+            applyRevealStyles(element, settings.direction)
+            applyRevealDelay(element, settings.delay)
+            element._scrollRevealDirection = settings.direction
+            getScrollAnimationsEngine().registerReveal(element)
+            return
+        }
+
         if(element._scrollRevealDirection !== settings.direction) {
             applyRevealStyles(element, settings.direction)
             element._scrollRevealDirection = settings.direction

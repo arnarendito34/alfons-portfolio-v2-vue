@@ -123,6 +123,7 @@ div.sidebar-column {
 
 div.content-column {
     width: 100%;
+    min-width: 0;
     background-color: $default-section-background;
     @include media-breakpoint-down($navigation-sidebar-breakpoint) {
         margin-bottom: $nav-tab-controller-height;

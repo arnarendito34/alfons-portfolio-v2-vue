@@ -84,13 +84,13 @@ section.scroll-parallax {
     &::before {
         content: "";
         position: absolute;
-        inset: -8% -8%;
+        inset: 0;
         z-index: 0;
         pointer-events: none;
         background:
             radial-gradient(circle at 16% 22%, rgba($primary, 0.07), transparent 36%),
             radial-gradient(circle at 84% 78%, rgba($nav-highlight, 0.1), transparent 42%);
-        transform: translate3d(0, var(--parallax-y, 0), 0) scale(1.04);
+        transform: translate3d(0, var(--parallax-y, 0), 0);
         will-change: transform;
     }
 
