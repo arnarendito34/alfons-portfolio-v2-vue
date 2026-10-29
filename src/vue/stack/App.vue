@@ -2,13 +2,15 @@
     <DataManager>
         <WindowObserver>
             <FeedbacksManager>
-                <LanguageManager>
-                    <LocationManager>
-                        <ModalManager>
-                            <Resume/>
-                        </ModalManager>
-                    </LocationManager>
-                </LanguageManager>
+                <ThemeManager>
+                    <LanguageManager>
+                        <LocationManager>
+                            <ModalManager>
+                                <Resume/>
+                            </ModalManager>
+                        </LocationManager>
+                    </LanguageManager>
+                </ThemeManager>
             </FeedbacksManager>
         </WindowObserver>
     </DataManager>
@@ -17,6 +19,7 @@
 <script setup>
 import DataManager from "/src/vue/stack/DataManager.vue"
 import LanguageManager from "/src/vue/stack/LanguageManager.vue"
+import ThemeManager from "/src/vue/stack/ThemeManager.vue"
 import FeedbacksManager from "/src/vue/stack/FeedbacksManager.vue"
 import LocationManager from "/src/vue/stack/LocationManager.vue"
 import ModalManager from "/src/vue/stack/ModalManager.vue"

@@ -6,8 +6,7 @@
              class="col-12 col-md-6 col-lg-12 col-xl-6">
             <div class="options-list-item">
                 <IconView class="options-list-icon-view"
-                          :fa-icon="item.faIcon"
-                          :background-color="utils.getRootSCSSVariable('primary')"/>
+                          :fa-icon="item.faIcon"/>
 
                 <div class="option-list-info">
                     <ScrollRevealText tag="h5"
@@ -36,12 +35,9 @@
 </template>
 
 <script setup>
-import {useUtils} from "/src/composables/utils.js"
 import IconView from "/src/vue/components/widgets/IconView.vue"
 import CopyButton from "/src/vue/components/widgets/CopyButton.vue"
 import ScrollRevealText from "/src/vue/components/widgets/ScrollRevealText.vue"
-
-const utils = useUtils()
 
 const props = defineProps({
     items:Array

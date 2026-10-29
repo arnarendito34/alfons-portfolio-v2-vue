@@ -19,9 +19,6 @@
 <script setup>
 import ImageView from "/src/vue/components/widgets/ImageView.vue"
 import {computed, ref} from "vue"
-import {useUtils} from "/src/composables/utils.js"
-
-const utils = useUtils()
 
 const props = defineProps({
     img: String,
@@ -50,16 +47,16 @@ const fallbackIconBackgroundColor = computed(() => {
         return props.backgroundColor
     if(props.transparency)
         return `transparent`
-    return utils.getRootSCSSVariable('bs-primary')
+    return `var(--bs-primary)`
 })
 
 const fallbackIconFillColor = computed(() => {
     if(props.fillColor)
         return props.fillColor
     if(props.transparency)
-        return utils.getRootSCSSVariable('bs-primary')
+        return `var(--bs-primary)`
 
-    return utils.getRootSCSSVariable('bs-light')
+    return `var(--bs-light)`
 })
 
 defineExpose({

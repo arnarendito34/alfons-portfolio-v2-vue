@@ -6,7 +6,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="author" content="Ryan Balieiro" />
         <meta name="format-detection" content="address=no"/>
+        <meta name="theme-color" content="#f4f0f7"/>
         <title>Alfonsus's Portfolio –by Vue 3 + Bootstrap 5</title>
+
+        <!-- Theme preload -->
+        <script>
+            (function () {
+                try {
+                    const supportedModes = ["light", "dark"]
+                    const supportedThemes = ["violet", "ocean", "forest", "sunset"]
+                    const savedMode = window.localStorage.getItem("theme-manager-mode")
+                    const savedTheme = window.localStorage.getItem("theme-manager-theme")
+                    const prefersDark = window.matchMedia &&
+                        window.matchMedia("(prefers-color-scheme: dark)").matches
+                    const mode = supportedModes.includes(savedMode)
+                        ? savedMode
+                        : (prefersDark ? "dark" : "light")
+                    const theme = supportedThemes.includes(savedTheme)
+                        ? savedTheme
+                        : "violet"
+
+                    document.documentElement.dataset.mode = mode
+                    document.documentElement.dataset.theme = theme
+                    document.documentElement.style.colorScheme = mode
+                } catch (error) {}
+            })()
+        </script>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Saira:400,700" rel="stylesheet" type="text/css">

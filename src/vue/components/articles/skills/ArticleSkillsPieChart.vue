@@ -7,7 +7,7 @@
 <script setup>
 import { Pie } from 'vue-chartjs'
 import { Chart as ChartJS, ArcElement, Title, Tooltip } from 'chart.js'
-import {computed, inject, onBeforeMount} from "vue"
+import {computed, inject, onBeforeMount, ref, watch} from "vue"
 import {useUtils} from "/src/composables/utils.js"
 
 const utils = useUtils()
@@ -23,9 +23,24 @@ const props = defineProps({
 /** @type {Function} */
 const localize = inject("localize")
 
+/** @type {{value:String}} */
+const selectedMode = inject("selectedMode")
+
+/** @type {{value:Object}} */
+const selectedTheme = inject("selectedTheme")
+
+const chartColors = ref({ border: "", hoverBorder: "" })
+
 onBeforeMount(() => {
     ChartJS.register(Title, Tooltip, ArcElement)
 })
+
+watch([selectedMode, selectedTheme], () => {
+    chartColors.value = {
+        border: utils.getRootSCSSVariable("chart-js-border-color"),
+        hoverBorder: utils.getRootSCSSVariable("chart-js-hover-border-color")
+    }
+}, { immediate: true, flush: "post" })
 
 const chartOptions = computed(() => {
     return {
@@ -51,8 +66,8 @@ const chartData = computed(() => {
     }
 
     const items = props.model.items
-    const borderColor = utils.getRootSCSSVariable("chart-js-border-color")
-    const hoverBorderColor = utils.getRootSCSSVariable("chart-js-hover-border-color")
+    const borderColor = chartColors.value.border
+    const hoverBorderColor = chartColors.value.hoverBorder
 
     const totalPercentage = items.reduce((total, item) => {
         const title = localize(item.locales, "title")

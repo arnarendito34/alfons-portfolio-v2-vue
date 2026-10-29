@@ -23,45 +23,57 @@ const localize = inject("localize")
 <style lang="scss" scoped>
 @import "/src/scss/_theming.scss";
 
-$spacing-between-items:15px;
-
 ul.inline-list {
     list-style: none;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 
     @include media-breakpoint-down(xl) {
         flex-direction: column;
+        align-items: flex-start;
     }
 }
 
 li.inline-list-item {
-    margin-right: $spacing-between-items;
-    &:not(:last-child)::after {
-        content: "𐄁";
-        opacity: 0.4;
-        margin-left: $spacing-between-items;
+    a {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+
+        padding: 6px 13px;
+        border: 1px solid var(--theme-border);
+        border-radius: 999px;
+        background-color: var(--theme-surface-muted);
+        text-decoration: none;
+        transition:
+            background-color 0.2s ease,
+            border-color 0.2s ease,
+            box-shadow 0.2s ease,
+            transform 0.2s ease;
+
+        &:hover {
+            border-color: var(--theme-primary);
+            background-color: var(--theme-surface-solid);
+            box-shadow: var(--theme-shadow-soft);
+            transform: translateY(-1px);
+        }
     }
 
     i {
-        margin-right: 10px;
-        opacity: 1;
+        margin-right: 0;
+        color: var(--theme-accent-text);
     }
-}
 
-li.inline-list-item {
+    &:not(:last-child)::after {
+        display: none;
+    }
+
     @include media-breakpoint-down(xl) {
         i {
             min-width: 20px;
             text-align: center;
-        }
-
-        &:not(:last-child) {
-            margin-bottom: 5px;
-        }
-
-        &::after {
-            display: none!important;
         }
     }
 }

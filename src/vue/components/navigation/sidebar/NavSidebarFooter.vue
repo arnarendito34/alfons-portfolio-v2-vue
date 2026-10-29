@@ -1,6 +1,7 @@
 <template>
     <div class="nav-sidebar-footer">
-        <div class="nav-sidebar-footer-language-picker-wrapper">
+        <div class="nav-sidebar-footer-controls">
+            <ThemePicker :shrink="shrink"/>
             <LanguagePicker :shrink="shrink"/>
         </div>
         <div v-if="!shrink"
@@ -12,6 +13,7 @@
 
 <script setup>
 import LanguagePicker from "/src/vue/components/widgets/LanguagePicker.vue"
+import ThemePicker from "/src/vue/components/widgets/ThemePicker.vue"
 
 const props = defineProps({
     credits: String,
@@ -36,11 +38,28 @@ div.nav-sidebar-footer {
     }
 }
 
-div.nav-sidebar-footer-language-picker-wrapper {
+div.nav-sidebar-footer-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 100%;
+    max-width: 100%;
     padding-bottom: 5px;
     @media (max-height: 650px) {
         padding-bottom: 0;
     }
+}
+
+:deep(.theme-picker-shrink button.dropdown-toggle),
+:deep(.language-picker-shrink button.dropdown-toggle) {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+:deep(.theme-picker-shrink button.dropdown-toggle > i.fa-caret-down),
+:deep(.language-picker-shrink button.dropdown-toggle > i.fa-caret-down) {
+    display: none;
 }
 
 div.nav-sidebar-footer-credits {

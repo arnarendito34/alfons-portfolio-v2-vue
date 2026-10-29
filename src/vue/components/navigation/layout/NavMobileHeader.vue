@@ -8,6 +8,10 @@
                         :include-toggle-button="false"
                         @toggle="null"/>
 
+        <ThemePicker :shrink="true"
+                     :align-end="utils.isChromeOS()"
+                     :class="utils.isChromeOS() ? `theme-picker-right` : `theme-picker-left`"/>
+
         <LanguagePicker :shrink="true"
                         :class="utils.isChromeOS() ? `language-picker-left` : `language-picker-right`"/>
     </nav>
@@ -17,6 +21,7 @@
 import {inject} from "vue"
 import NavProfileCard from "/src/vue/components/navigation/layout/NavProfileCard.vue"
 import LanguagePicker from "/src/vue/components/widgets/LanguagePicker.vue"
+import ThemePicker from "/src/vue/components/widgets/ThemePicker.vue"
 import {useUtils} from "/src/composables/utils.js"
 
 const utils = useUtils()
@@ -40,14 +45,19 @@ nav.nav-mobile-header {
     position: relative;
 }
 
-div.language-picker {
+div.language-picker, div.theme-picker {
     position: absolute;
     top: 5px;
     right: 5px;
+}
 
-    &-left {
-        left: 5px;
-        right: auto;
-    }
+div.language-picker-left, div.theme-picker-left {
+    left: 5px;
+    right: auto;
+}
+
+div.theme-picker-right {
+    right: 5px;
+    left: auto;
 }
 </style>
